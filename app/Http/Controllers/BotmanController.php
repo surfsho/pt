@@ -7,6 +7,7 @@ use BotMan\BotMan\BotMan;
 use BotMan\BotMan\Messages\Incoming\Answer;
 use Illuminate\Support\Facades\DB;
 use BotMan\BotMan\Messages\Outgoing\Question;
+use App\Conversation\QuizConversation;
 class BotmanController extends Controller
 {
     //
@@ -40,23 +41,25 @@ class BotmanController extends Controller
         //     $botman->reply("25$");
         // });
 
-        $table_message = DB::table('messagesbotman')->get();
+        // $table_message = DB::table('messagesbotman')->get();
         
         
-        for($i=0;$i<count($table_message);$i++) {
-            $mess = $table_message[$i];
-            $message = trim($table_message[$i]->message);
-            $botman->hears($message,function($botman) use($mess) {
-                $botman->reply($mess->reply);
-                if(strlen($mess->reply2) > 0)
-                    $botman->reply($mess->reply2);
+        // for($i=0;$i<count($table_message);$i++) {
+        //     $mess = $table_message[$i];
+        //     $message = trim($table_message[$i]->message);
+        //     $botman->hears($message,function($botman) use($mess) {
+        //         $botman->reply($mess->reply);
+        //         if(strlen($mess->reply2) > 0)
+        //             $botman->reply($mess->reply2);
 
-                if(strlen($mess->reply3) > 0)
-                    $botman->reply($mess->reply3);
-            });
-        }
+        //         if(strlen($mess->reply3) > 0)
+        //             $botman->reply($mess->reply3);
+        //     });
+        // }
 
-        
+        $botman->hears('hello world', function(Botman $bot){
+            $bot->startConversation(new QuizConversation);
+        });
         $botman->listen();
     }
 
