@@ -57,7 +57,7 @@ class BotmanController extends Controller
         //     });
         // }
 
-        $botman->hears('hello world', function(Botman $bot){
+        $botman->hears('hi', function(Botman $bot){
             $bot->startConversation(new QuizConversation);
         });
         $botman->listen();
