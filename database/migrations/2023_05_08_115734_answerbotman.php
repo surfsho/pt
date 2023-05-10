@@ -15,7 +15,7 @@ return new class extends Migration
         Schema::create('answersbotman', function (Blueprint $table) {
             $table->id();
             $table->foreignId('message_id');
-            $table->string('value');
+            $table->integer('order');
             $table->string('message');
             
             $table->foreign('message_id')->references('id')->on('messagesbotman');

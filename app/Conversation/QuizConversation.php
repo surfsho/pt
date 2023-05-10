@@ -21,7 +21,7 @@
                 $buttons = DB::table('buttonsbotman')->where('message_id',"=",$question->id)->get();
                 $buttonsArray = [];
                 foreach($buttons as $button) {
-                    $buttonsArray[] = Button::create($button->name)->value($button->value);
+                    $buttonsArray[] = Button::create($button->name)->value($button->order);
                 }
                 $this->questionsArray[] = Question::create($question->message)->addButtons($buttonsArray);
             }
@@ -32,9 +32,9 @@
             $question = $this->questionsArray[$id-1];
             $this->ask($question,function(Answer $answer) use($id){
                 $table = DB::table('answersbotman')->where('message_id',"=",$id)->get();
-                $button =  DB::table('buttonsbotman')->where('value',"=",$answer->getValue())->get();
+                $button =  DB::table('buttonsbotman')->where('order',"=",$answer->getValue())->get();
                 foreach($table as $value) {
-                    if($answer->getValue() == $value->value) {
+                    if($answer->getValue() == $value->order) {
                         $this->say($value->message);
                     }
                 }

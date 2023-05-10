@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('message_id');
             $table->string('name');
-            $table->string('value');
+            $table->integer('order');
             $table->integer('next');
             $table->foreign('message_id')->references('id')->on('messagesbotman');
         });
