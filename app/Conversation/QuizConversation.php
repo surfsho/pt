@@ -6,10 +6,63 @@
     use BotMan\BotMan\Messages\Outgoing\Actions\Button;
     use BotMan\BotMan\Messages\Incoming\Answer;
     use BotMan\BotMan\Messages\Outgoing\Question;
+    use Illuminate\Support\Facades\DB;
 
     class QuizConversation extends Conversation {
+        public $questionsArray;
         public function run() {
-            $this->run2();
+            $this->iwrite();
+        }
+
+        public function iwrite() {
+            $questions = DB::table('messagesbotman')->get();
+            $questionsArray = [];
+            foreach($questions as $question) {
+                $buttons = DB::table('buttonsbotman')->where('message_id',"=",$question->id)->get();
+                $buttonsArray = [];
+                foreach($buttons as $button) {
+                    $buttonsArray[] = Button::create($button->name)->value($button->value);
+                }
+                $this->questionsArray[] = Question::create($question->message)->addButtons($buttonsArray);
+            }
+            $this->rund(1);
+        }
+
+        public function rund($id) {
+            $question = $this->questionsArray[$id-1];
+            $this->ask($question,function(Answer $answer) use($id){
+                $table = DB::table('answersbotman')->where('message_id',"=",$id)->get();
+                $button =  DB::table('buttonsbotman')->where('value',"=",$answer->getValue())->get();
+                foreach($table as $value) {
+                    if($answer->getValue() == $value->value) {
+                        $this->say($value->message);
+                    }
+                }
+                $next = $button[0]->next;
+                if($next > 0)
+                    $this->rund($next);
+            });
+        }
+
+        public function getNext($id) {
+            if($id == "order") {
+                return 3;
+            } else if($id == "order5") {
+                return 3;
+            } else if($id == "order6") {
+                return 3;
+            } else if($id == "order1") {
+                return 2;
+            } else if($id == "order2") {
+                return 4;
+            } else if($id == "order14") {
+                return 5;
+            } else if($id == "order15") {
+                return 6;
+            } else if($id == "order16") {
+                return 6;
+            } 
+            return -1;
         }
 
         public function run2() {
@@ -21,7 +74,7 @@
                 Button::create('Just browsing')->value('order4'),
             ]);
 
-            $question2 = Question::create('Sounds great. But first, do you need help with an existing product')->addButtons([
+            $question2 = Question::create('SoundsSounds great. But first, do you need help with an existing product great. But first, do you need help with an existing product')->addButtons([
                 Button::create('No, chat with a rep about sales')->value('loop'),
                 Button::create('Get product support')->value('loop2')
             ]);

@@ -11,13 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
-        Schema::create('answersbotman', function (Blueprint $table) {
+        Schema::create('buttonsbotman', function (Blueprint $table) {
             $table->id();
             $table->foreignId('message_id');
+            $table->string('name');
             $table->string('value');
-            $table->string('message');
-            
+            $table->integer('next');
             $table->foreign('message_id')->references('id')->on('messagesbotman');
         });
     }
