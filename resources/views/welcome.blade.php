@@ -11,14 +11,13 @@
         <style>
             .hero {
                 width: 100%;
-                height: 70vh;
-                background: url(https://www.outreachtek.com/assets/img/hero-bg.jpg) top center;
+                
+                background: url(http://localhost:8000/Ellipse6.png) top center;
                 background-size: cover;
-                margin-bottom: -200px;
+            
                 font-family:sans-serif;
-                padding:100px;
+                
                 font-size:30px;
-                margin-bottom:100px;
             }
 
             .header {
@@ -228,6 +227,136 @@
 
             }
 
+            .center2 {
+                margin-left:200px !important;
+            }
+
+            .navbar-brand {
+                margin-left:200px;
+            }
+            .center{
+                margin-left:200px;
+            }
+
+            .group {
+                position: relative;
+                top: -350px;
+                left: 120px;
+            }
+
+            .group2 {
+                position: absolute;
+                top:250px;
+                left:1200px;
+            }
+
+            .rowcol {
+                display:flex;
+            }
+
+            .btext {
+                font-weight:bold;
+                font-size:35px;
+            }
+
+            .ctext {
+                color:grey;
+                font-size:25px;
+            }
+
+            .textban {
+                background-color: #2694E1;
+                padding:80px;
+            }
+
+            .textbanc {
+                font-size: 30px;
+                color:white;
+            }
+
+            .textbank {
+                font-size: 22px;
+                color:white;
+            }
+
+            .textbankc {
+                position:absolute;
+width: 1139px;
+height: 204px;
+left: calc(50% - 1139px/2 - 5.5px);
+top: 1559px;
+padding-top:300px;
+background: #FFFFFF;
+box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.25);
+            
+            }
+
+            .textbankc.rowcol {
+                justify-content:space-around;
+                font-size:24px;
+                padding:20px;
+            }
+
+            .textbankc.rowcol p {
+                padding-top:20px;
+            }
+
+            .textc {
+                padding:50px;
+                text-align:center;
+            }
+
+            .textbc {
+                margin:20px;
+                margin-top:100px;
+            }
+
+            .buttons2 {
+                text-align:center;
+                padding:20px;
+                vertical-align:middle;
+                margin-left:50vw;
+            }
+
+            .plusabout {
+                margin-top:200px;
+                font-size:25px;
+                margin-left:20px;
+                justify-content:space-around;
+            }
+
+            .colorblock {
+                background:#2694E1;
+                padding-top:20px;
+                padding-left:20px;
+                padding-bottom:20px;
+                width:50px;
+            }
+
+            .plus {
+                font-size:50px;
+                
+            }
+
+            .colortext {
+                color:#2694E1;
+                font-size: 20px;
+            }
+
+            .boldtext {
+                font-weight:bold;
+                font-size: 40px;
+                border-bottom: 3px solid #FBB837;
+            }
+
+            .bl {
+                width:600px;
+            }
+
+            .bl2 {
+                width:300px;
+            }
+            
             </style>
               <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css">
     <script>
@@ -270,10 +399,10 @@
     <body class="antialiased" style="background-image:none;">
     @include('cookie-consent::index')
         <header class="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#"><img src="https://www.outreachtek.com/assets/img/patient-connect.png"></a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-6 center mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -364,278 +493,72 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Contact</a>
         </li>
-        <button class="btn btn-primary">Schedule a Demo</button>
+        <button class="center2 btn btn-primary">Schedule a Demo</button>
       </ul>
         </nav>
         </header>
-        <section class="hero">
-            <h1>Welcome to patient connect</h1>
-            <p>Empower Your Practice with a Seamless Patient</br>
-Communication Platform</p>
-            <p>Connect, Manage, Coordinate and Follow-up with</br>
-Patients by the Power of Technology</p>
-            <button class="btn btn-primary">Schedule a Demo</button>
-        </section>
-        <section class="two">
-            <img src="https://www.outreachtek.com/assets/img/about.jpg" width="800" height="800">
-            <div>
-                <h1>Patient Connect is an easy to use and integrated solution for healthcare providers</h1>
-                <p>The Patient Connect is a patient communication and automation solution that automates tasks such as scheduling appointments, sending reminder messages, and tracking patient progress</p>
-                <div class="row">
-                    <div class="col-auto">
-                    <i class="fa-solid fa-fingerprint"></i>
-                    </div>
-                    <div class="col">
-                    <h3>HIPAA Compliant</h3>
-                    <p>Use it with confidence; use it with safety—Patient Connect is fully compliant with HIPAA regulations, keeping data safe and fully secure.</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-auto">
-                <i class="fa-solid fa-gift"></i>
-        </div>
-        <div class="col">
-                    <h3>Technical Competence</h3>
-                    <p>We believe quality service is of prime importance, even as technical competence and mastery of cutting-edge technology is in the current scenario.</p>
-        </div>
-                </div>
-                <div class="row">
-                    <div class="col-auto">
-                <i class="fa-solid fa-atom"></i>
-        </div>
-        <div class="col-auto">
-                    <h3>Implementations</h3>
-                    <p>We make everything easy to understand, assimilate and implement</p>
-        </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2 style="text-align:center;">Services</h2>
-            <p style="font-size:20px;text-align:center;">The Ultimate Patient Connect Solutions</p>
-             <div class="grid">
-                <div class="row">
-                <div class="col detail">
-                    <div class="icon">
-                    <i class="fa-solid fa-heart-pulse"></i>
-                    </div>
-                    <h3>Whatsapp Messaging</h3>
-                    <p>WhatsApp is an incredibly popular messaging platform that can be utilized by dental practices to improve communication with patients.</p>
-                    <p>Read More</p>
-                </div>
-                <div class="col detail">
-                <div class="icon">
-                <i class="fa-solid fa-heart-pulse"></i>
-                    </div>
-                    <h3>Appointment Reminders</h3>
-                    <p>Automatically send out personalized reminders text to your patients. Patients can quickly confirm their appointment by responding</p>
-                    <p>Read More</p>
-                </div>
-                <div class="col detail">
-                <div class="icon">
-                <i class="fa-solid fa-pills"></i>
-                    </div>
-                    <h3>Two Way Texting</h3>
-                    <p>Take advantage of our messaging platform to text patients in real-time right from your office number and keep the appointments up-to-date.</p>
-                    <p>Read More</p>
-                </div>
-        </div>
-        <div class="row">
-                <div class="col detail">
-                <div class="icon">
-                <i class="fa-solid fa-hospital-user"></i>
-                    </div>
-                    <h3>Patient Digital Forms</h3>
-                    <p>Patients can digitally fill a variety of forms that need to be filled in for a variety of purposes, such as registration, consent, liability etc.</p>
-                    <p>Read More</p>
-                </div>
-                <div class="col detail">
-                <div class="icon">
-                <i class="fa-solid fa-hospital-user"></i>
-                    </div>
-                    <h3>Patients Recall</h3>
-                    <p>With SMS recall, you can seamlessly send out text message to patients to schedule a follow up or for recurring appointment.</p>
-                    <p>Read More</p>
-                </div>
-                <div class="col detail">
-                <div class="icon">
-                <i class="fa-solid fa-wheelchair"></i>
-                    </div>
-                    <h3>Pre & Post Care Messaging</h3>
-                    <p>Patient Connect automates the process of sending pre and post care instructions to the patients.</p>
-                    <p>Read More</p>
-                </div>
-        </div>
-        <div class="row">
-                <div class="col detail">
-                <div class="icon">
-                <i class="fa-solid fa-notes-medical"></i>
-                    </div>
-                    <h3>Broadcast Messaging</h3>
-                    <p>You can now send out specific messages to specific targets at specified times.</p>
-                    <p>Read More</p>
-                </div>
-                <div class="col detail">
-                <div class="icon">
-                <i class="fa-solid fa-notes-medical"></i>
-                    </div>
-                    <h3>Marketing Campaigns</h3>
-                    <p>You can create awareness and to stay on top of the competition by launching and tracking marketing campaigns.</p>
-                    <p>Read More</p>
-                </div>
-                <div class="col detail">
-                <div class="icon">
-                <i class="fa-solid fa-notes-medical"></i>
-                    </div>
-                    <h3>Reputation Management</h3>
-                    <p>You can manage and track the reviews about your services</p>
-                    <p>Read More</p>
-                </div>
-        </div>
-        <div class="row">
-                <div class="col detail">
-                <div class="icon">
-                <i class="fa-solid fa-notes-medical"></i>
-                    </div>
-                    <h3>Insurance Verifications</h3>
-                    <p>This module helps you to check and verify available insurance cover immediately through links to various payees.</p>
-                    <p>Read More</p>
-                </div>
-                <div class="col detail">
-                <div class="icon">
-                <i class="fa-solid fa-hospital-user"></i>
-                    </div>
-                    <h3>Caller ID</h3>
-                    <p>With this feature you can know about the identity of your patients when they call you</p>
-                    <p>Read More</p>
-                </div>
-                <div class="col detail">
-                <div class="icon">
-                <i class="fa-solid fa-hospital-user"></i>
-                    </div>
-                    <h3>Virtual Waiting Room</h3>
-                    <p>Your patients can wait virtually to avail your services. A patient is notified when his/her turn comes.</p>
-                    <p >Read More</p>
-                </div>
-        </div>
-            </div>
-            
-        </section>
-        <section class="fres">
-            <h5>Integrations</h5>
-            <div class="flex">
-                <img width="150" height="150" src="https://www.outreachtek.com/assets/img/pdds-denticon-350.webp">
-                <img width="150" height="150" src="https://www.outreachtek.com/assets/img/Dentrix-logo.png">
-                <img width="150" height="30" src="https://www.outreachtek.com/assets/img/dentrix-ascend.png">
-                <img width="150" height="150" src="https://www.outreachtek.com/assets/img/dentrix-enterprise.jfif">
-                <img width="150" height="150" src="https://www.outreachtek.com/assets/img/Dentrix-logo.png">
-                <img width="150" height="150" src="https://www.outreachtek.com/assets/img/curvedental.svg">
-            </div>
-        </section>
-        <section class="contact">
-        <h5>Contact</h5>
-        <p>Our mission is to earn the loyalty of our customers and grow our company by developing innovative IT solutions that are world class in quality</p>
-        <div class="flex2">
-        <div class="detail2">
-            <div class="row">
-            <div class="col-auto">
-            <i class="fa-solid fa-location-dot"></i>
-            </div>
-            <div class="col-auto">
-            <h3>Location</h3>
-        
-            <p>4000 Livernois Rd, Suite #103, TROY, MI 48098.</p>
-        </div>
-        </div>
-        <div class="row">
-            <div class="col-auto">
-            <i class="fa-solid fa-envelope"></i>
-        </div>
-            <div class="col-auto">
-            <h3>Email</h3>
-            <p>support@idssoft.com</p>
-        </div>
-        </div>
-        <div class="row">
-            <div class="col-auto">
-            <i class="fa-solid fa-phone"></i>
-        </div>
-        <div class="col-auto">
-            <h3>Call</h3>
-            <p>+1 (248)266-9089</p>
-        </div>
-        </div>
-        </div>
-        <div class="form">
-        <div class="row">
-        <div class="col mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
-        </div>
-        <div class="col mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
-        </div>
-        
-        </div>
-        <div class="col mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Subject</label>
-            <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="subject">
-        </div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+        <div  class="hero">
+            <div class="textc">
+            <h1>Dental Patient Communication Software for Small & Medium Offices</h1>
+            <p>Empower Your Practice with a Seamless PatientCommunication Platform</p>
+            <p>Connect, Manage, Coordinate and Follow-up withPatients by the Power of Technology</p>
 </div>
-<button class="btn btn-primary" onclick="submit()">Send Message</button>
+            <div class="rowcol">
+            <div class="image">
+            <img src="/Group.png" class="group">
+            <img src="/Rectangle9420.png">
+            <img src="/left-arrow.png" class="group2">
+            </div>
+            <div class="textbc">
+                <p class="btext">12+</p>
+                <p class="ctext">Years Experience</p>
+                <p class="btext">800+</p>
+                <p class="ctext">Project Done</p>
+                <p class="btext">500+</p>
+                <p class="ctext">Happy Clients</p>
+            </div>
+            </div>
+            <div class="rowcol buttons2">
+                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn-outline-primary">Demo Videos</button>
+            </div>
+</div>
+    <div>
+        <div class="rowcol">
+        <img src="/Rectangle3921.png">
+        <div class="textban">
+            <p class="textbanc">Patient Connect is an easy to use and integrated solution for healthcare providers</p>
+            <p class="textbank">The Patient Connect is a patient communication and automation solution that automates tasks such as scheduling appointments, sending reminder messages, and tracking patient progress</p>
+            
         </div>
-        
+</div>
+        <div class="textbankc rowcol">
+            <img src="Group1261153396.png" width="100" height="100">
+            <p>HIPAA Compliant</p>
+            <img src="Group1000002244.png" width="100" height="100">
+            <p>Technical Competence</p>
+            <img src="Group1000002245.png" width="100" height="100">
+            <p>Implementations</p>
         </div>
-        
-        </section>
-        <section class="rflex">
-            <div>
-                <img src="https://www.outreachtek.com/assets/img/patient-connect.png">
-                
-                <p>4000 Livernois Rd,</p>
-                <p>Suite #103,</p>
-                <p>TROY, MI 48098.</p>
-                <p>Phone: +1 (248)266-9089</p>
-                <p>Email: support@idssoft.com</p>
-            </div>
-            <div>
-                <p>
-                Useful Links
-                </p>
-                <p>Features</p>
-                
-                <p>Whatsapp Messaging</p>
-                <p>Appointment Reminders</o>
-                <p>Two Way Texting</p>
-                <p>Patient Digital Forms</p>
-               <p>Patients Recall</p>
-            </div>
-            <div>
-                
-            <p>Features</p>
-            <p>   Pre & Post Care Messaging</p>
-            <p>   Broadcast Messaging </p>
-        <p>   Marketing Campaigns  </p>
-        <p>    Reputation Management </p>
-          <p>      Insurance Verification </p>
-            <p>    Caller ID </p>
-            <p>    Virtual Waiting Room </p>
-                
-            </div>
-            <div>
-                <p>Join Our Newsletter</p>
-                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna<p>
-                <div style="display:flex;flex-direction:row;">
-                    
-                    <input class="form-control" type="text">
-
-                    <button class="btn btn-primary">Subscribe</button>
-                </div>
-            </div>
-        </section>
+    </div>
+    <div class="rowcol plusabout">
+        <div class="bl2">
+            <div class="rowcol"><p class="colorblock">20</p><p class="plus">+</p></div>
+            <p>YEARS EXPERIENCE</p>
+        </div>
+        <div class="bl">
+            <p class="colortext">ABOUT US</p>
+            <p class="boldtext">Lorem ipsum dolor sit amet consectetur. Dignissim </p>
+            <p>Lorem ipsum dolor sit amet consectetur. Dignissim nulla urna iaculis suspendisse hendrerit duis 
+Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus lacus at eget.
+ Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus lacus at eget.
+ Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus lacus at eget.</p>
+        </div>
+        <img src="Rectangle3919.png" class="bl">
+    </div>
+    <div>
+        <p>Digitizeyour patient journey</p>
+        <p>Click through each step of the patient journey to see what a modern experience looks like</p>
+    </div>
     </body>
 </html>

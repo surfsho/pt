@@ -85,20 +85,20 @@ class DatabaseSeeder extends Seeder
         ]);
 
         DB::table('answersbotman')->insert([
-            ["message" => "To best get you the support you need, please call our support team at 800-576-6412 ext. 472","order"=>7, "message_id"=> 3],
-            ["message" => "Thank you for chatting with US today!","order"=>7, "message_id"=> 3],
-            ["message" => "To best get you the support you need, please call our support team at 800-576-6412 ext. 472","order"=>8, "message_id"=> 3],
-            ["message" => "Thank you for chatting with US today!","order"=>8, "message_id"=> 3],
-            ["message" => "To best get you the support you need, please call our support team at 800-576-6412 ext. 472","order"=>9, "message_id"=> 3],
-            ["message" => "Thank you for chatting with US today!","order"=>9, "message_id"=> 3],
-            ["message" => "To best get you the support you need, please call our support team at 800-576-6412 ext. 472","order"=>10, "message_id"=> 3],
-            ["message" => "Thank you for chatting with US today!","order"=>10, "message_id"=> 3],
-            ["message" => "To best get you the support you need, please call our support team at 800-576-6412 ext. 472","order"=>11, "message_id"=> 3],
-            ["message" => "Thank you for chatting with US today!","order"=>11, "message_id"=> 3],
-            ["message" => "To best get you the support you need, please call our support team at 800-576-6412 ext. 472","order"=>12, "message_id"=> 3],
-            ["message" => "Thank you for chatting with US today!","order"=>12, "message_id"=> 3],
-            ["message" => "To best get you the support you need, please call our support team at 800-576-6412 ext. 472","order"=>13, "message_id"=> 3],
-            ["message" => "Thank you for chatting with US today!","order"=>13, "message_id"=> 3],
+            ["message" => "To best get you the support you need, please call our support team at 123-456-7890 ext. 111","order"=>7, "message_id"=> 3],
+            ["message" => "Thank you for chatting with us today!","order"=>7, "message_id"=> 3],
+            ["message" => "To best get you the support you need, please call our support team at 123-456-7890 ext. 111","order"=>8, "message_id"=> 3],
+            ["message" => "Thank you for chatting with us today!","order"=>8, "message_id"=> 3],
+            ["message" => "To best get you the support you need, please call our support team at 123-456-7890 ext. 111","order"=>9, "message_id"=> 3],
+            ["message" => "Thank you for chatting with us today!","order"=>9, "message_id"=> 3],
+            ["message" => "To best get you the support you need, please call our support team at 123-456-7890 ext. 111","order"=>10, "message_id"=> 3],
+            ["message" => "Thank you for chatting with us today!","order"=>10, "message_id"=> 3],
+            ["message" => "To best get you the support you need, please call our support team at 123-456-7890 ext. 111","order"=>11, "message_id"=> 3],
+            ["message" => "Thank you for chatting with us today!","order"=>11, "message_id"=> 3],
+            ["message" => "To best get you the support you need, please call our support team at 123-456-7890 ext. 111","order"=>12, "message_id"=> 3],
+            ["message" => "Thank you for chatting with us today!","order"=>12, "message_id"=> 3],
+            ["message" => "To best get you the support you need, please call our support team at 123-456-7890 ext. 111","order"=>13, "message_id"=> 3],
+            ["message" => "Thank you for chatting with us today!","order"=>13, "message_id"=> 3],
         ]);
 
         DB::table('answersbotman')->insert([
