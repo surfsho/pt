@@ -20,7 +20,7 @@ use App\Http\Controllers\BotmanController;
 */
 
 Route::get('/', function () {
-    SEOTools::setTitle('Home');
+    SEOTools::setTitle('Hom');
     SEOTools::setDescription('This is my page description');
     return view('welcome');
 });

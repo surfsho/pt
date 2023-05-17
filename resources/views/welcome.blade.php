@@ -4,360 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
+        <title>Home</title>
         {!! SEO::generate(true) !!}
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
-        
-        <style>
-            .hero {
-                width: 100%;
-                
-                background: url(http://localhost:8000/Ellipse6.png) top center;
-                background-size: cover;
-            
-                font-family:sans-serif;
-                
-                font-size:30px;
-            }
+        @vite("resources/css/app.css")
 
-            .header {
-                
-                background: #fff;
-                transition: all 0.5s;
-                z-index: 997;
-                padding: 15px 0;
-                top: 40px;
-                box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
-            }
-            .two {
-                display:flex;
-                padding:30px;
-                justify-content:space-around;
-            }
-
-            .two div {
-                padding: 20px;
-            }
-
-            .two p {
-                font-size:20px;
-            }
-
-            .grid {
-                margin:10px;
-                margin-left:90px;
-                margin-right:90px;
-            }
-            
-            .detail {
-                width:500px;
-                height:400px;
-                text-align:center;
-                
-                padding:20px;
-                padding-top:100px;
-                background:#d5e1ed;
-                margin:20px;
-               
-            }
-
-            .detail2 {
-                width:500px;
-                height:300px;
-                padding:20px;
-                padding-top:10px;
-                background:lightblue;
-                margin:20px;
-                text-align:left;
-            }
-
-            .fres {
-                width:100%;
-                height:300px;
-                background:lightblue;
-                text-align:center;
-                margin-bottom: 30px;
-            }
-
-            .fres h5 {
-                padding:20px;
-            }
-
-            .contact {
-                width:100%;
-                height:600px;
-                background:lightblue;
-               
-            }
-
-            .contact > h5, .contact > p {
-                text-align: center;
-                padding: 15px;
-            }
-
-            .flex{
-                padding:10px;
-                filter:grayscale(1);
-            }
-
-            .flex img {
-                padding:10px;
-            }
-
-            .flex2 {
-                display:flex;
-                margin-top:80px;
-                margin-left:15vw;
-            }
-
-            .contact > p {
-                font-size:16px;
-            }
-
-            .rflex {
-                display: flex;
-            }
-
-            .rflex div {
-                display:flex;
-                flex-direction:column;
-                margin:50px;
-            }
-
-            .each {
-                display:flex;
-                flex-direction: row;
-            }
-
-            .form input, .form textarea {
-                border-radius:0px;
-                border-color: grey;
-            }
-
-            .icon {
-                width: 70px;
-                height: 70px;
-                border: 1px solid grey;
-                background: blue;
-                border-radius: 5px;
-                position: relative;
-                left:12vw;
-                top: -2vw;
-                z-index:1000;
-            }
-
-            .icon::before {
-                display:block;
-                content: '';
-                width: 70px;
-                height: 70px;
-                border: 1px solid grey;
-                background: blue;
-                border-radius: 5px;
-                position: relative;
-                left: -10px;
-                top:-10px;
-                opacity:19%;
-                z-index: 1;
-            }
-
-            .icon:hover {
-                z-index:2;
-            }
-
-            .icon:hover::before {
-                display:block;
-                content: '';
-                width: 70px;
-                height: 70px;
-                border: 1px solid grey;
-                background: blue;
-                border-radius: 5px;
-                position: relative;
-                left: -10px;
-                top:-10px;
-                opacity: 60%;
-                z-index: 1;
-            }
-
-            i {
-                font-size:30px;
-                display:inline-flex;
-            }
-
-            .icon > i {
-                position: relative;
-                top:-50px;
-            }
-
-            .hop.show {
-                list-style:none;
-                display: flex !important;
-            }
-
-            ul ul {
-                list-style-type: none;
-            }
-
-            .detail p:nth-of-type(2):hover {
-                font-size:20px;
-                text-decoration:underline;
-            }
-
-            .detail p:nth-of-type(2):hover:after {
-                font-size:20px;
-                content: '   >';
-            }
-
-            .chatbox {
-                position: fixed;
-                bottom: 10px;
-                right:10px;
-            }
-
-            .messages {
-                width:500px;
-                height:500px;
-            }
-
-            .js-cookie-consent {
-                position: fixed;
-    right: 0;
-    background: lightgray;
-
-            }
-
-            .center2 {
-                margin-left:200px !important;
-            }
-
-            .navbar-brand {
-                margin-left:200px;
-            }
-            .center{
-                margin-left:200px;
-            }
-
-            .group {
-                position: relative;
-                top: -350px;
-                left: 120px;
-            }
-
-            .group2 {
-                position: absolute;
-                top:250px;
-                left:1200px;
-            }
-
-            .rowcol {
-                display:flex;
-            }
-
-            .btext {
-                font-weight:bold;
-                font-size:35px;
-            }
-
-            .ctext {
-                color:grey;
-                font-size:25px;
-            }
-
-            .textban {
-                background-color: #2694E1;
-                padding:80px;
-            }
-
-            .textbanc {
-                font-size: 30px;
-                color:white;
-            }
-
-            .textbank {
-                font-size: 22px;
-                color:white;
-            }
-
-            .textbankc {
-                position:absolute;
-width: 1139px;
-height: 204px;
-left: calc(50% - 1139px/2 - 5.5px);
-top: 1559px;
-padding-top:300px;
-background: #FFFFFF;
-box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.25);
-            
-            }
-
-            .textbankc.rowcol {
-                justify-content:space-around;
-                font-size:24px;
-                padding:20px;
-            }
-
-            .textbankc.rowcol p {
-                padding-top:20px;
-            }
-
-            .textc {
-                padding:50px;
-                text-align:center;
-            }
-
-            .textbc {
-                margin:20px;
-                margin-top:100px;
-            }
-
-            .buttons2 {
-                text-align:center;
-                padding:20px;
-                vertical-align:middle;
-                margin-left:50vw;
-            }
-
-            .plusabout {
-                margin-top:200px;
-                font-size:25px;
-                margin-left:20px;
-                justify-content:space-around;
-            }
-
-            .colorblock {
-                background:#2694E1;
-                padding-top:20px;
-                padding-left:20px;
-                padding-bottom:20px;
-                width:50px;
-            }
-
-            .plus {
-                font-size:50px;
-                
-            }
-
-            .colortext {
-                color:#2694E1;
-                font-size: 20px;
-            }
-
-            .boldtext {
-                font-weight:bold;
-                font-size: 40px;
-                border-bottom: 3px solid #FBB837;
-            }
-
-            .bl {
-                width:600px;
-            }
-
-            .bl2 {
-                width:300px;
-            }
-            
-            </style>
               <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css">
     <script>
         var botmanWidget = {
@@ -402,7 +54,7 @@ box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.25);
         <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#"><img src="https://www.outreachtek.com/assets/img/patient-connect.png"></a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-6 center mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -557,8 +209,232 @@ Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus l
         <img src="Rectangle3919.png" class="bl">
     </div>
     <div>
+        <div class="maintext">
         <p>Digitizeyour patient journey</p>
         <p>Click through each step of the patient journey to see what a modern experience looks like</p>
+        </div>
+        <div class="rowcol">
+        <div>
+        <img src="Vector.png" class="bubble">
+        <img src="Group1261153352.png" class="phone">
+        <img src="Ellipse159.png" class="place1">
+        <img src="Ellipse159.png" class="place2">
+        <img src="Ellipse159.png" class="place3">
+        </div>
+        <div class="col2">
+        <img src="Rectangle 9434.png">
+        <img src="Rectangle 9433.png" style="position:relative;left:42px;">
+        <img src="Rectangle 9430.png" style="position:relative;left:85px;">
+        <img src="Vector 2.png" style="position:relative;    left: 129px;
+    width: 120px;">
+        <img src="Rectangle 9427.png" style="position:relative;left:90px;top:-0.2px;width:140px;">
+        <img src="Rectangle 9431.png" style="position:relative;left: 47px;
+    width: 144px;">
+        <img src="Rectangle 9431.png" style="position:relative;left:5px;width:142px;">
+        </div>
+        <div class="text">
+            <div class="rowcol"><p>01</p><p class="centerc" style="position: relative;
+    left: -100px;">Find a doctor on Goggle</p></div>
+            <div class="rowcol"><p>02</p><p class="centerc" style="position: relative;
+    left: -120px;">Schedule appointment</p></div>
+            <div class="rowcol"><p>03</p><p class="centerc" style="    position: relative;
+    left: -180px;">Confirm appointment</p></div>
+            <div class="rowcol"><p>04</p><p class="centerc" style="    position: relative;
+    left: -200px;"> Fill our paperwork</p></div>
+            <div class="rowcol"><p>05</p><p class="centerc" style="position: relative;
+    left: -200px;"> Pay the office</p></div>
+            <div class="rowcol"><p>06</p><p class="centerc" style="position: relative;
+    left: -160px;"> Leave a review</p></div>
+            <div class="rowcol"><p>07</p><p class="centerc" style="    position: relative;
+    left: -82px;"> Return for a follow-up</p></div>
+        </div>
+        </div>
     </div>
+    <div class="blockw">
+        <div class="rowcol">
+        <div class="block">
+        <img src="Rectangle 9423.png">
+        <div class="tbw">
+            <p>Get connected in minutes</p>
+            <p>Enable PracticeDilly in just 3 simple steps</p>
+        </div>
+        </div>
+        <div class="block2" style="background: url('Rectangle 9424.png') no-repeat;">
+        <img src="portrait.png">
+        </div>
+</div>
+    </div>
+    <div class="rowcol" >
+        <div class="col3" style="text-align:center;">
+            <div class="col2number">
+                1
+            </div>
+            <p>Sign up</p>
+            <p>Lorem ipsum dolor sit 
+amet consectetur.</p>
+        </div>
+        <div class="spacer"></div>
+        <div class="col3" style="text-align:center;">
+            <div class="col2number">
+                2
+            </div>
+            <p>Connect with PMS</p>
+            <p>Lorem ipsum dolor sit 
+amet consectetur.</p>
+        </div>
+        <div class="spacer"></div>
+        <div class="col3" style="text-align:center;">
+            <div class="col2number">
+                3
+            </div>
+            <p>Go Live</p>
+            <p>Lorem ipsum dolor sit 
+amet consectetur.</p>
+        </div>
+    </div>
+    <div>
+        <div class="maintext">
+        <p>What our clients say</p>
+        
+</div>
+<img src="Twitter post - 9.png">
+</div>
+<div class="rowcol" style="padding:10%;">
+    <div class="col4">
+    <div class="engage" style="background:url('Rectangle 25.png') no-repeat;">
+    <p>Empower your team 
+with our platform</p>
+</div>
+<p>We build readymade websites, mobile applications, and elaborate online business services.</p>
+</div>
+<div class="engag2" style="background:url('Rectangle 24.png') no-repeat;">
+    <div class="encard" style="background:url('Rectangle 27.png') no-repeat;">
+        <div style="background:#F1F7FF;width:100px;position:relative;left:30%;">
+        <img src="box-search 1.png">
+</div>
+        <p>74</p>
+        <p>Monthly working
+hour savings</p>
+</div>
+<div class="encard" style="position: relative;top: -100px;background:url('Rectangle 27.png') no-repeat;">
+<div style="background: #FFF7E3;width:100px;position:relative;left:30%;
+">
+<img src="empty-wallet 1.png">
+</div>
+    <p>$1776</p>
+    <p>Monthly Cost 
+saving</p>
+</div>
+<div class="encard" style="background:url('Rectangle 27.png') no-repeat;">
+    <div style="background: #FFF2F8;width:100px;position:relative;left:30%;
+">
+<img src="code-1 1.png">
+</div>
+    <p>96%</p>
+    <p>Appointment
+confirmations</p>
+</div>
+<div class="encard" style="position: relative;top: -100px;background:url('Rectangle 27.png') no-repeat;">
+<div style="background: #DEFFEE;width:100px;position:relative;left:30%;
+">
+<img src="chart-square 1.png">
+</div>
+    <p>74</p>
+    <p>Monthly working
+hour savings</p>
+</div>
+</div>
+</div>
+<div class="blockw">
+        <div class="rowcol">
+        <div class="block">
+        <img src="Rectangle 30.png">
+        <div style="position: relative;
+    top: -300px;
+    left: 100px;">
+            <p style="font-weight:bold;font-size:30px;">Subscribe Newsletter</p>
+            <p style="font-size:25px;">I will update good news and promotion service not spam</p>
+        </div>
+        </div>
+        <div class="block" style="position: relative;
+    left: -705px;">
+        <img src="Rectangle 31.png">
+            <div class="form-control" style="border-radius:20px;width:fit-content;position:relative;    top: -300px;
+    left: -232px;">
+                <input type="text" style="font-size:30px;border:none;" placeholder="Enter your email address">
+                <button class="btn btn-primary">Contact now</button>
+            </div>
+        </div>
+</div>
+</div>
+<section class="rflex" style="background-color: #3D9DE1;color:white;">
+            <div style="width: 300px;">
+                <img src="https://www.outreachtek.com/assets/img/patient-connect.png" width="120" height="50">
+                
+                <p>Regístrate y disfruta de todas las ventajas que te ofrecemos, introduce tus </p>
+            </div>
+            <div>
+                <p style="font-weight:bold;">
+                Useful Links
+                </p>
+                <p>Home</p>
+                <p style="font-weight:bold;">Features</p>
+                
+                <p>Whatsapp Messaging</p>
+                <p>Appointment Reminders</o>
+                <p>Two Way Texting</p>
+                <p>Patient Digital Forms</p>
+               <p>Patients Recall</p>
+            </div>
+            <div>
+                
+            <p style="font-weight:bold;">Features</p>
+            <p>   Pre & Post Care Messaging</p>
+            <p>   Broadcast Messaging </p>
+        <p>   Marketing Campaigns  </p>
+        <p>    Reputation Management </p>
+          <p>      Insurance Verification </p>
+            <p>    Caller ID </p>
+            <p>    Virtual Waiting Room </p>
+                
+            </div>
+            <div>
+                
+            <p style="font-weight:bold;">Features</p>
+            <p>   Pre & Post Care Messaging</p>
+            <p>   Broadcast Messaging </p>
+        <p>   Marketing Campaigns  </p>
+        <p>    Reputation Management </p>
+          <p>      Insurance Verification </p>
+            <p>    Caller ID </p>
+            <p>    Virtual Waiting Room </p>
+                
+            </div>
+            <div>
+                
+            <p style="font-weight:bold;">Features</p>
+            <p>   Pre & Post Care Messaging</p>
+            <p>   Broadcast Messaging </p>
+        <p>   Marketing Campaigns  </p>
+        <p>    Reputation Management </p>
+          <p>      Insurance Verification </p>
+            <p>    Caller ID </p>
+            <p>    Virtual Waiting Room </p>
+                
+            </div>
+            <div>
+                <p style="font-size:28px;">Follow us</p>
+                <div style="flex-direction:row !important;margin:0px;justify-content:space-between;width:100%;">
+                    <img src="facebook.png">
+                    <img src="instagram.png">
+                    <img src="discord.png">
+                    <img src="twitter.png">
+                </div>
+            </div>
+            
+        </section>
+        <section style="background-color: #3D9DE1;color:white;padding:5px;border-top:1px solid white;">
+            <p style="margin-left:1400px;">© All rights reserved. Made by Information Data Systems</p>
+</section>
     </body>
 </html>
