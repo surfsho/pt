@@ -157,9 +157,9 @@
 </div>
             <div class="rowcol">
             <div class="image">
-            <img src="/Group.png" class="group">
-            <img src="/Rectangle9420.png">
-            <img src="/left-arrow.png" class="group2">
+            <img src="Group.png" class="group">
+            <img src="Rectangle9420.png">
+            <img src="left-arrow.png" class="group2">
             </div>
             <div class="textbc">
                 <p class="btext">12+</p>
@@ -177,7 +177,7 @@
 </div>
     <div>
         <div class="rowcol">
-        <img src="/Rectangle3921.png">
+        <img src="Rectangle3921.png">
         <div class="textban">
             <p class="textbanc">Patient Connect is an easy to use and integrated solution for healthcare providers</p>
             <p class="textbank">The Patient Connect is a patient communication and automation solution that automates tasks such as scheduling appointments, sending reminder messages, and tracking patient progress</p>
