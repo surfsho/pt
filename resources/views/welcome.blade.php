@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>Home</title>
         {!! SEO::generate(true) !!}
@@ -47,6 +47,7 @@
  $("#staticBackdrop").modal('toggle')
     });
 </script>    
+
 </head>
     <body class="antialiased" style="background-image:none;">
     @include('cookie-consent::index')
@@ -145,7 +146,7 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Contact</a>
         </li>
-        <button class="center2 btn btn-primary">Schedule a Demo</button>
+        <button class="btn btn-primary">Schedule a Demo</button>
       </ul>
         </nav>
         </header>
@@ -156,9 +157,9 @@
             <p>Connect, Manage, Coordinate and Follow-up withPatients by the Power of Technology</p>
 </div>
             <div class="rowcol">
-            <div class="image">
+            <div class="rowcol" style="position:relative;right:1vw;">
             <img src="Group.png" class="group">
-            <img src="Rectangle9420.png">
+            <img src="Rectangle9420.png" style="width:70vw;">
             <img src="left-arrow.png" class="group2">
             </div>
             <div class="textbc">
@@ -176,20 +177,20 @@
             </div>
 </div>
     <div>
-        <div class="rowcol">
-        <img src="Rectangle3921.png">
+        <div class="rowcol" style="height:30vw;">
+        <img src="Rectangle3921.png" style="width:50vw;">
         <div class="textban">
             <p class="textbanc">Patient Connect is an easy to use and integrated solution for healthcare providers</p>
             <p class="textbank">The Patient Connect is a patient communication and automation solution that automates tasks such as scheduling appointments, sending reminder messages, and tracking patient progress</p>
             
         </div>
 </div>
-        <div class="textbankc rowcol">
-            <img src="Group1261153396.png" width="100" height="100">
+        <div class="textbankc rowcol" style="margin-left:25vw;">
+            <img src="Group1261153396.png" style="width:8vw;height:8vw;">
             <p>HIPAA Compliant</p>
-            <img src="Group1000002244.png" width="100" height="100">
+            <img src="Group1000002244.png" style="width:8vw;height:8vw;">
             <p>Technical Competence</p>
-            <img src="Group1000002245.png" width="100" height="100">
+            <img src="Group1000002245.png" style="width:8vw;height:8vw;">
             <p>Implementations</p>
         </div>
     </div>
@@ -201,7 +202,7 @@
         <div class="bl">
             <p class="colortext">ABOUT US</p>
             <p class="boldtext">Lorem ipsum dolor sit amet consectetur. Dignissim </p>
-            <p>Lorem ipsum dolor sit amet consectetur. Dignissim nulla urna iaculis suspendisse hendrerit duis 
+            <p style="font-size:1.5vw;">Lorem ipsum dolor sit amet consectetur. Dignissim nulla urna iaculis suspendisse hendrerit duis 
 Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus lacus at eget.
  Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus lacus at eget.
  Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus lacus at eget.</p>
@@ -214,7 +215,7 @@ Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus l
         <p>Click through each step of the patient journey to see what a modern experience looks like</p>
         </div>
         <div class="rowcol">
-        <div>
+        <div style="position:relative;">
         <img src="Vector.png" class="bubble">
         <img src="Group1261153352.png" class="phone">
         <img src="Ellipse159.png" class="place1">
@@ -222,46 +223,44 @@ Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus l
         <img src="Ellipse159.png" class="place3">
         </div>
         <div class="col2">
-        <img src="Rectangle 9434.png">
-        <img src="Rectangle 9433.png" style="position:relative;left:42px;">
-        <img src="Rectangle 9430.png" style="position:relative;left:85px;">
-        <img src="Vector 2.png" style="position:relative;    left: 129px;
-    width: 120px;">
-        <img src="Rectangle 9427.png" style="position:relative;left:90px;top:-0.2px;width:140px;">
-        <img src="Rectangle 9431.png" style="position:relative;left: 47px;
-    width: 144px;">
-        <img src="Rectangle 9431.png" style="position:relative;left:5px;width:142px;">
+        <img src="Rectangle 9434.png" style="margin-left: 10vw;">
+        <img src="Rectangle 9433.png" style="margin-left: 11.7vw;">
+        <img src="Rectangle 9430.png" style="margin-left: 13.5vw;">
+        <img src="Vector 2.png" style="margin-left: 15.1vw;width: 5vw;">
+        <img src="Rectangle 9427.png" style="margin-left: 13.4vw">
+        <img src="Rectangle 9431.png" style="margin-left: 11.6vw;">
+        <img src="Rectangle 9431.png" style="margin-left:9.8vw;">
         </div>
         <div class="text">
-            <div class="rowcol"><p>01</p><p class="centerc" style="position: relative;
-    left: -100px;">Find a doctor on Goggle</p></div>
-            <div class="rowcol"><p>02</p><p class="centerc" style="position: relative;
-    left: -120px;">Schedule appointment</p></div>
-            <div class="rowcol"><p>03</p><p class="centerc" style="    position: relative;
-    left: -180px;">Confirm appointment</p></div>
-            <div class="rowcol"><p>04</p><p class="centerc" style="    position: relative;
-    left: -200px;"> Fill our paperwork</p></div>
-            <div class="rowcol"><p>05</p><p class="centerc" style="position: relative;
-    left: -200px;"> Pay the office</p></div>
-            <div class="rowcol"><p>06</p><p class="centerc" style="position: relative;
-    left: -160px;"> Leave a review</p></div>
-            <div class="rowcol"><p>07</p><p class="centerc" style="    position: relative;
-    left: -82px;"> Return for a follow-up</p></div>
+            <div class="pre"><p>01</p><p>Find a doctor on Goggle</p></div>
+            <div class="pre"><p>02</p><p>Schedule appointment</p></div>
+            <div class="pre"><p>03</p><p>Confirm appointment</p></div>
+            <div class="pre"><p>04</p><p> Fill our paperwork</p></div>
+            <div class="pre"><p>05</p><p> Pay the office</p></div>
+            <div class="pre"><p>06</p><p> Leave a review</p></div>
+            <div class="pre"><p>07</p><p> Return for a follow-up</p></div>
         </div>
         </div>
     </div>
     <div class="blockw">
         <div class="rowcol">
-        <div class="block">
-        <img src="Rectangle 9423.png">
+        
+        <img src="Rectangle 9423.png" style="width:100vw;">
         <div class="tbw">
             <p>Get connected in minutes</p>
             <p>Enable PracticeDilly in just 3 simple steps</p>
         </div>
         </div>
-        <div class="block2" style="background: url('Rectangle 9424.png') no-repeat;">
-        <img src="portrait.png">
-        </div>
+        <img src="Rectangle 9424.png" style="position: absolute;
+    width: 50vw;
+    height: 26vw;
+    top: 0px;
+    right: 0px;">
+        <img src="portrait.png" style="    position: absolute;
+    top: -4vw;
+    right: 134px;
+    width: 30vw;
+    height: 30vw;">
 </div>
     </div>
     <div class="rowcol" >
@@ -297,7 +296,7 @@ amet consectetur.</p>
         <p>What our clients say</p>
         
 </div>
-<img src="Twitter post - 9.png">
+<img src="Twitter post - 9.png" style="width:99vw;">
 </div>
 <div class="rowcol" style="padding:10%;">
     <div class="col4">
@@ -309,35 +308,35 @@ with our platform</p>
 </div>
 <div class="engag2" style="background:url('Rectangle 24.png') no-repeat;">
     <div class="encard" style="background:url('Rectangle 27.png') no-repeat;">
-        <div style="background:#F1F7FF;width:100px;position:relative;left:30%;">
-        <img src="box-search 1.png">
+        <div style="background:#F1F7FF;width:100px;position:relative;left:4vw;margin:auto;left:auto;right:auto;">
+        <img src="box-search 1.png" style="width:4vw;height:4vw;">
 </div>
         <p>74</p>
         <p>Monthly working
 hour savings</p>
 </div>
 <div class="encard" style="position: relative;top: -100px;background:url('Rectangle 27.png') no-repeat;">
-<div style="background: #FFF7E3;width:100px;position:relative;left:30%;
+<div style="background: #FFF7E3;width:100px;position:relative;left:4vw;margin:auto;left:auto;right:auto;
 ">
-<img src="empty-wallet 1.png">
+<img src="empty-wallet 1.png" style="width:4vw;height:4vw;">
 </div>
     <p>$1776</p>
     <p>Monthly Cost 
 saving</p>
 </div>
 <div class="encard" style="background:url('Rectangle 27.png') no-repeat;">
-    <div style="background: #FFF2F8;width:100px;position:relative;left:30%;
+    <div style="background: #FFF2F8;width:100px;position:relative;left:4vw;margin:auto;left:auto;right:auto;
 ">
-<img src="code-1 1.png">
+<img src="code-1 1.png" style="width:4vw;height:4vw;">
 </div>
     <p>96%</p>
     <p>Appointment
 confirmations</p>
 </div>
 <div class="encard" style="position: relative;top: -100px;background:url('Rectangle 27.png') no-repeat;">
-<div style="background: #DEFFEE;width:100px;position:relative;left:30%;
+<div style="background: #DEFFEE;width:100px;position:relative;left:4vw;margin:auto;left:auto;right:auto;
 ">
-<img src="chart-square 1.png">
+<img src="chart-square 1.png" style="width:4vw;height:4vw;">
 </div>
     <p>74</p>
     <p>Monthly working
@@ -348,20 +347,20 @@ hour savings</p>
 <div class="blockw">
         <div class="rowcol">
         <div class="block">
-        <img src="Rectangle 30.png">
-        <div style="position: relative;
-    top: -300px;
-    left: 100px;">
+        <img src="Rectangle 30.png" style="width:80vw;">
+        <div style="position:absolute;top:5vw;width:40vw;left:4vw;">
             <p style="font-weight:bold;font-size:30px;">Subscribe Newsletter</p>
             <p style="font-size:25px;">I will update good news and promotion service not spam</p>
         </div>
-        </div>
-        <div class="block" style="position: relative;
-    left: -705px;">
-        <img src="Rectangle 31.png">
-            <div class="form-control" style="border-radius:20px;width:fit-content;position:relative;    top: -300px;
-    left: -232px;">
-                <input type="text" style="font-size:30px;border:none;" placeholder="Enter your email address">
+        
+        
+        <img src="Rectangle 31.png" style="width: 30vw;
+    position: absolute;
+    top: 0;
+    right: 0;">
+            <div class="form-control" style="border-radius:20px;width:fit-content;position:absolute;top:5vw;
+    right:15vw;">
+                <input type="text" style="font-size:1vw;border:none;width:20vw;" placeholder="Enter your email address">
                 <button class="btn btn-primary">Contact now</button>
             </div>
         </div>
@@ -434,7 +433,7 @@ hour savings</p>
             
         </section>
         <section style="background-color: #3D9DE1;color:white;padding:5px;border-top:1px solid white;">
-            <p style="margin-left:1400px;">© All rights reserved. Made by Information Data Systems</p>
+            <p style="margin-left:74vw;">© All rights reserved. Made by Information Data Systems</p>
 </section>
     </body>
 </html>
