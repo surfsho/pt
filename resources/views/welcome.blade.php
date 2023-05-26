@@ -69,49 +69,17 @@
             <li><a class="dropdown-item" href="#">Whatsapp Mesaaging</a></li>
             <li><a class="dropdown-item" href="#">Appointment Reminders</a></li>
             
-            <li><a class="dropdown-item" href="#">Two way Testing</a></li>
+            <li><a class="dropdown-item" href="#">Two way Texting</a></li>
             <li><a class="dropdown-item" href="#">Patient Digital Forms</a></li>
-            <li><a class="dropdown-item" href="#">Patients Recall</a></li>
-            <li><a class="dropdown-item" href="#">Pre and post care messaging</a></li>
-            <li><a class="dropdown-item" href="#">Broadcast messaging</a></li>
+            <li><a class="dropdown-item" href="#">Patient Recall</a></li>
+            <li><a class="dropdown-item" href="#">Pre And Post Care Messaging</a></li>
+            <li><a class="dropdown-item" href="#">Broadcast Messaging</a></li>
             <li><a class="dropdown-item" href="#">Marketing Campaigns</a></li>
             <li><a class="dropdown-item" href="#">Reputation Management</a></li>
             <li><a class="dropdown-item" href="#">Insurance verification</a></li>
-            <li><a class="dropdown-item" href="#">Caller id</a></li>
+            <li><a class="dropdown-item" href="#">SmartCaller</a></li>
             
-            <li><a class="dropdown-item" href="#">Virtual Meeting room</a></li>
-          </ul>
-          <ul>
-            <li><a class="dropdown-item" href="#">Whatsapp Mesaaging</a></li>
-            <li><a class="dropdown-item" href="#">Appointment Reminders</a></li>
-            
-            <li><a class="dropdown-item" href="#">Two way Testing</a></li>
-            <li><a class="dropdown-item" href="#">Patient Digital Forms</a></li>
-            <li><a class="dropdown-item" href="#">Patients Recall</a></li>
-            <li><a class="dropdown-item" href="#">Pre and post care messaging</a></li>
-            <li><a class="dropdown-item" href="#">Broadcast messaging</a></li>
-            <li><a class="dropdown-item" href="#">Marketing Campaigns</a></li>
-            <li><a class="dropdown-item" href="#">Reputation Management</a></li>
-            <li><a class="dropdown-item" href="#">Insurance verification</a></li>
-            <li><a class="dropdown-item" href="#">Caller id</a></li>
-            
-            <li><a class="dropdown-item" href="#">Virtual Meeting room</a></li>
-          </ul>
-          <ul>
-            <li><a class="dropdown-item" href="#">Whatsapp Mesaaging</a></li>
-            <li><a class="dropdown-item" href="#">Appointment Reminders</a></li>
-            
-            <li><a class="dropdown-item" href="#">Two way Testing</a></li>
-            <li><a class="dropdown-item" href="#">Patient Digital Forms</a></li>
-            <li><a class="dropdown-item" href="#">Patients Recall</a></li>
-            <li><a class="dropdown-item" href="#">Pre and post care messaging</a></li>
-            <li><a class="dropdown-item" href="#">Broadcast messaging</a></li>
-            <li><a class="dropdown-item" href="#">Marketing Campaigns</a></li>
-            <li><a class="dropdown-item" href="#">Reputation Management</a></li>
-            <li><a class="dropdown-item" href="#">Insurance verification</a></li>
-            <li><a class="dropdown-item" href="#">Caller id</a></li>
-            
-            <li><a class="dropdown-item" href="#">Virtual Meeting room</a></li>
+            <li><a class="dropdown-item" href="#">Virtual Check-In</a></li>
           </ul>
             </div>
         </li>
@@ -152,9 +120,9 @@
         </header>
         <div  class="hero">
             <div class="textc">
-            <h1>Dental Patient Communication Software for Small & Medium Offices</h1>
-            <p>Empower Your Practice with a Seamless PatientCommunication Platform</p>
-            <p>Connect, Manage, Coordinate and Follow-up withPatients by the Power of Technology</p>
+            <h1>Connecting Providers, Patients and Front Office with Seamless Software Solution</h1>
+            <p>Unleash Efficiency</p>
+            <p>Uncover the Blissful Efficiency of Patient Connect!</p>
 </div>
             <div class="rowcol">
             <div class="rowcol" style="position:relative;right:1vw;">
@@ -163,17 +131,17 @@
             <img src="left-arrow.png" class="group2">
             </div>
             <div class="textbc">
-                <p class="btext">12+</p>
-                <p class="ctext">Years Experience</p>
-                <p class="btext">800+</p>
-                <p class="ctext">Project Done</p>
-                <p class="btext">500+</p>
-                <p class="ctext">Happy Clients</p>
+                <p class="btext">Significant</p>
+                <p class="ctext">Time Savings</p>
+                <p class="btext">Boost In</p>
+                <p class="ctext">Appointment Attendance</p>
+                <p class="btext">Enhanced</p>
+                <p class="ctext">Revenue Generation</p>
             </div>
             </div>
             <div class="rowcol buttons2">
-                <button class="btn btn-primary">Get Started</button>
-                <button class="btn btn-outline-primary">Demo Videos</button>
+                <button class="btn btn-primary btn-lg">Get Started</button>
+                <button class="btn btn-outline-primary btn-lg">Demo Videos</button>
             </div>
 </div>
     <div>
@@ -181,38 +149,35 @@
         <img src="Rectangle3921.png" style="width:50vw;">
         <div class="textban">
             <p class="textbanc">Patient Connect is an easy to use and integrated solution for healthcare providers</p>
-            <p class="textbank">The Patient Connect is a patient communication and automation solution that automates tasks such as scheduling appointments, sending reminder messages, and tracking patient progress</p>
+            <p class="textbank">Revolutionizes Patient Communication by automating essential tasks like Appointment Scheduling, Reminder Messages, and Ensuring Seamless Efficiency and Precise Monitoring</p>
             
         </div>
 </div>
         <div class="textbankc rowcol" style="margin-left:25vw;">
-            <img src="Group1261153396.png" style="width:8vw;height:8vw;">
+            <img src="Group1261153396.png" style="width:6vw;height:6vw;">
             <p>HIPAA Compliant</p>
-            <img src="Group1000002244.png" style="width:8vw;height:8vw;">
-            <p>Technical Competence</p>
-            <img src="Group1000002245.png" style="width:8vw;height:8vw;">
-            <p>Implementations</p>
+            <img src="Group1000002244.png" style="width:6vw;height:6vw;">
+            <p>Protected</p>
+            <img src="Group1000002245.png" style="width:6vw;height:6vw;">
+            <p>Safeguarded</p>
         </div>
     </div>
     <div class="rowcol plusabout">
         <div class="bl2">
-            <div class="rowcol"><p class="colorblock">20</p><p class="plus">+</p></div>
-            <p>YEARS EXPERIENCE</p>
+            <div class="rowcol"><p class="colorblock">15+</p><p>Years</p></div>
+            <p>of Experience</p>
         </div>
         <div class="bl">
             <p class="colortext">ABOUT US</p>
-            <p class="boldtext">Lorem ipsum dolor sit amet consectetur. Dignissim </p>
-            <p style="font-size:1.5vw;">Lorem ipsum dolor sit amet consectetur. Dignissim nulla urna iaculis suspendisse hendrerit duis 
-Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus lacus at eget.
- Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus lacus at eget.
- Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus lacus at eget.</p>
+            <p class="boldtext">OutreachTek Stands Out As A Pioneer In The Dental And Medical Industry </p>
+            <p style="font-size:1.5vw;">With years of experience in healthcare management and technology, we possess the expertise to address the unique challenges faced by dental practices. We prioritize data security and compliance with industry regulations, safeguarding sensitive patient information and ensuring HIPAA compliance.</p>
         </div>
         <img src="Rectangle3919.png" class="bl">
     </div>
     <div>
         <div class="maintext">
-        <p>Digitizeyour patient journey</p>
-        <p>Click through each step of the patient journey to see what a modern experience looks like</p>
+        <p>The Ultimate Patient Connect Features</p>
+        <p>Click on each Feature to learn more</p>
         </div>
         <div class="rowcol">
         <div style="position:relative;">
@@ -232,66 +197,68 @@ Adipiscing neque erat venenatis velit aliquet fringilla faucibus dolor. Tellus l
         <img src="Rectangle 9431.png" style="margin-left:9.8vw;">
         </div>
         <div class="text">
-            <div class="pre"><p>01</p><p>Find a doctor on Goggle</p></div>
-            <div class="pre"><p>02</p><p>Schedule appointment</p></div>
-            <div class="pre"><p>03</p><p>Confirm appointment</p></div>
-            <div class="pre"><p>04</p><p> Fill our paperwork</p></div>
-            <div class="pre"><p>05</p><p> Pay the office</p></div>
-            <div class="pre"><p>06</p><p> Leave a review</p></div>
-            <div class="pre"><p>07</p><p> Return for a follow-up</p></div>
+            <div class="pre"><p>01</p><p>WhatsApp Messaging</p></div>
+            <div class="pre"><p>02</p><p>Reminders & Confirmation</p></div>
+            <div class="pre"><p>03</p><p>Digital Forms</p></div>
+            <div class="pre"><p>04</p><p>PrePost Care Messaging</p></div>
+            <div class="pre"><p>05</p><p>Reputation Management</p></div>
+            <div class="pre"><p>06</p><p>Insurance Verification</p></div>
+            <div class="pre"><p>07</p><p>Patient Recall</p></div>
         </div>
         </div>
     </div>
     <div class="blockw">
         <div class="rowcol">
         
-        <img src="Rectangle 9423.png" style="width:100vw;">
+        <img src="Rectangle 9423.png" style="width:99vw;height:32vw;">
         <div class="tbw">
-            <p>Get connected in minutes</p>
-            <p>Enable PracticeDilly in just 3 simple steps</p>
+            <p>Other Features</p>
+            <p>Online Scheduling</p>
+            <p>Two Way Texting</p>
+            <p>Broadcast Messaging</p>
+            <p>Marketing Campaigns</p>
+            <p>SmartCaller</p>
+            <p>Virtual Check-In</p>
+            <p>Analytical Dashboard</p>
         </div>
         </div>
         <img src="Rectangle 9424.png" style="position: absolute;
-    width: 50vw;
-    height: 26vw;
+    width: 60vw;
+    height: 32vw;
     top: 0px;
-    right: 0px;">
+    right: 0vw;">
         <img src="portrait.png" style="    position: absolute;
-    top: -4vw;
-    right: 134px;
-    width: 30vw;
-    height: 30vw;">
+    top: -5vw;
+    right: 8vw;
+    width: 32vw;">
 </div>
     </div>
-    <div class="rowcol" >
+    <div class="rowcol" style="margin-bottom:10vh;">
         <div class="col3" style="text-align:center;">
             <div class="col2number">
                 1
             </div>
             <p>Sign up</p>
-            <p>Lorem ipsum dolor sit 
-amet consectetur.</p>
+            <p>Fill out the required information, such as your name, email address, and practice details</p>
         </div>
         <div class="spacer"></div>
         <div class="col3" style="text-align:center;">
-            <div class="col2number">
+            <div class="col2number" style="left:13vw;">
                 2
             </div>
-            <p>Connect with PMS</p>
-            <p>Lorem ipsum dolor sit 
-amet consectetur.</p>
+            <p>Install Synchronizer</p>
+            <p>After signing up, you will receive an email with instructions on how to download and install the synchronizer.</p>
         </div>
         <div class="spacer"></div>
         <div class="col3" style="text-align:center;">
-            <div class="col2number">
+            <div class="col2number" style="left:8vw;">
                 3
             </div>
-            <p>Go Live</p>
-            <p>Lorem ipsum dolor sit 
-amet consectetur.</p>
+            <p>Sync Data With PMS</p>
+            <p>Initiate the data sync process by clicking button in the synchronizer application.</p>
         </div>
     </div>
-    <div>
+    <!-- <div>
         <div class="maintext">
         <p>What our clients say</p>
         
@@ -365,63 +332,50 @@ hour savings</p>
             </div>
         </div>
 </div>
-</div>
+</div> -->
 <section class="rflex" style="background-color: #3D9DE1;color:white;">
             <div style="width: 300px;">
                 <img src="https://www.outreachtek.com/assets/img/patient-connect.png" width="120" height="50">
-                
-                <p>Regístrate y disfruta de todas las ventajas que te ofrecemos, introduce tus </p>
             </div>
             <div>
                 <p style="font-weight:bold;">
                 Useful Links
                 </p>
                 <p>Home</p>
-                <p style="font-weight:bold;">Features</p>
                 
-                <p>Whatsapp Messaging</p>
+</div>
+<div>
+<p style="font-weight:bold;">Features</p>
+                
+                <p>WhatsApp Mesaaging</p>
                 <p>Appointment Reminders</o>
                 <p>Two Way Texting</p>
                 <p>Patient Digital Forms</p>
-               <p>Patients Recall</p>
-            </div>
-            <div>
+</div>
+<div>
                 
             <p style="font-weight:bold;">Features</p>
+            <p>Patient Recall</p>
             <p>   Pre & Post Care Messaging</p>
             <p>   Broadcast Messaging </p>
         <p>   Marketing Campaigns  </p>
-        <p>    Reputation Management </p>
-          <p>      Insurance Verification </p>
-            <p>    Caller ID </p>
-            <p>    Virtual Waiting Room </p>
+        
                 
             </div>
             <div>
                 
             <p style="font-weight:bold;">Features</p>
-            <p>   Pre & Post Care Messaging</p>
-            <p>   Broadcast Messaging </p>
-        <p>   Marketing Campaigns  </p>
+
         <p>    Reputation Management </p>
           <p>      Insurance Verification </p>
-            <p>    Caller ID </p>
-            <p>    Virtual Waiting Room </p>
+            <p>    SmartCaller </p>
+            <p>    Virtual Check-In </p>
                 
             </div>
             <div>
-                
-            <p style="font-weight:bold;">Features</p>
-            <p>   Pre & Post Care Messaging</p>
-            <p>   Broadcast Messaging </p>
-        <p>   Marketing Campaigns  </p>
-        <p>    Reputation Management </p>
-          <p>      Insurance Verification </p>
-            <p>    Caller ID </p>
-            <p>    Virtual Waiting Room </p>
-                
+            
             </div>
-            <div>
+            <div style="margin-left:auto;">
                 <p style="font-size:28px;">Follow us</p>
                 <div style="flex-direction:row !important;margin:0px;justify-content:space-between;width:100%;">
                     <img src="facebook.png">

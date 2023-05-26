@@ -114,6 +114,7 @@ body {
 .rflex {
     display: flex;
     padding:1vw;
+    position:relative;
 }
 
 .rflex div {
@@ -290,7 +291,7 @@ background: lightgray;
 padding-top:300px;
 background: #FFFFFF;
 box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.25);
-
+    width:60vw;
 }
 
 .textbankc.rowcol {
@@ -318,7 +319,8 @@ box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.25);
     text-align:center;
     padding:20px;
     vertical-align:middle;
-    margin-left:50vw;
+    margin-left:35vw;
+    padding-bottom:5vw;
 }
 
 .plusabout {
@@ -326,6 +328,7 @@ box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.25);
     font-size:25px;
     margin-left:20px;
     justify-content:space-around;
+    height:40vw;
 }
 
 .colorblock {
@@ -464,15 +467,16 @@ left: 837px;
 }
 
 .blockw {
-    height:800px;
+    margin-bottom:5vw;
     margin-top:10%;
     position: relative;
+    height:36vw;
 }
 
 .tbw {
     position: absolute;
     left: 10%;
-    top:10vw;
+    top:2vw;
 }
 
 .tbw > p:nth-child(1) {
@@ -488,14 +492,14 @@ left: 837px;
     height: 8vw;
 border-radius: 100px;
 position: relative;
-left:5vw;
+left:10vw;
 padding-top:3px;
 font-size:5vw;
 color:white;
 
 }
 .spacer{
-    width: 300px;
+    width: 100px;
 border-bottom: 5px dashed;
 height: 100px;
 }
@@ -579,7 +583,7 @@ table {
 
 .text {
     position: relative;
-    font-size:2vw;
+    font-size:1.5vw;
 }
 
 .pre:nth-of-type(1) {
