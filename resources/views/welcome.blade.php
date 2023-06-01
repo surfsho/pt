@@ -53,9 +53,9 @@
     @include('cookie-consent::index')
         <header class="header">
         <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img src="https://www.outreachtek.com/assets/img/patient-connect.png"></a>
+        <a class="navbar-brand" href="#" style="margin-left:5vw;"><img src="https://www.outreachtek.com/assets/img/patient-connect.png"></a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -335,7 +335,7 @@ hour savings</p>
 </div> -->
 <section class="rflex" style="background-color: #3D9DE1;color:white;">
             <div style="width: 300px;">
-                <img src="https://www.outreachtek.com/assets/img/patient-connect.png" width="120" height="50">
+                <img src="logowhite.png" width="120" height="50">
             </div>
             <div>
                 <p style="font-weight:bold;">
@@ -377,7 +377,7 @@ hour savings</p>
             </div>
             <div style="margin-left:auto;">
                 <p style="font-size:28px;">Follow us</p>
-                <div style="flex-direction:row !important;margin:0px;justify-content:space-between;width:100%;">
+                <div style="flex-direction:row !important;margin:0px;justify-content:space-between;width:10vw;">
                     <img src="facebook.png">
                     <img src="instagram.png">
                     <img src="discord.png">

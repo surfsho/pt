@@ -115,12 +115,14 @@ body {
     display: flex;
     padding:1vw;
     position:relative;
+    height:40vh;
 }
 
 .rflex div {
     display:flex;
     flex-direction:column;
     margin:5px;
+    padding:10px;
 }
 
 .each {
@@ -277,21 +279,22 @@ background: lightgray;
 }
 
 .textbanc {
-    font-size: 2.5vw;
-    color:white;
-}
-
-.textbank {
     font-size: 2vw;
     color:white;
 }
 
+.textbank {
+    font-size: 1.8vw;
+    color:white;
+}
+
 .textbankc {
-    position:absolute;
+    position:relative;
+    top:-3vw;
 padding-top:300px;
 background: #FFFFFF;
 box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.25);
-    width:60vw;
+    width:45vw;
 }
 
 .textbankc.rowcol {
@@ -324,11 +327,11 @@ box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.25);
 }
 
 .plusabout {
-    margin-top:20%;
+    margin-top:4%;
     font-size:25px;
     margin-left:20px;
     justify-content:space-around;
-    height:40vw;
+    height:35vw;
 }
 
 .colorblock {
@@ -336,7 +339,10 @@ box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.25);
     padding-top: 5%;
     padding-left: 2%;
     padding-bottom: 5%;
-    width:50px;
+    width: 100px;
+    height: 100px;
+    font-size: 4vw;
+    color: lightblue;
 }
 
 .plus {
@@ -356,13 +362,15 @@ box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.25);
 }
 
 .bl {
-    width: 30vw;
+    width: 40vw;
     height: 30vw;
 }
 
-.bl2 {
-    width:300px;
+.tbw > p {
+    font-size:1.5vw;
 }
+
+
 
 .maintext {
     
@@ -588,13 +596,13 @@ table {
 
 .pre:nth-of-type(1) {
     position:relative;
-    top: 5%;
+    top: 7%;
     left:-8.4vw;
 }
 
 .pre:nth-of-type(2) {
     position:relative;
-    top: 20%;
+    top: 21%;
     left:-6.6vw;
 }
 
@@ -606,31 +614,33 @@ table {
 
 .pre:nth-of-type(4) {
     position:relative;
-    top:48%;
-    left:-5vw;
+    top:50%;
+    left:-4.9vw;
+    padding-left:10px;
 }
 
 .pre:nth-of-type(5) {
     position:relative;
-    top:65%;
-    left:-7vw;
+    top:64%;
+    left:-6.6vw;
     padding-left: 1vw;
 }
 
 .pre:nth-of-type(6) {
     position:relative;
-    top:80%;
-    left:-8vw;
+    top:77%;
+    left:-8.2vw;
+    padding-left:1vw;
 }
 
 .pre:nth-of-type(7) {
     position:relative;
-    top:90%;
+    top:92%;
     left:-10vw;
     padding-left:1vw;
 }
 
 .pre > p:nth-child(1) {
     padding-right:4vw;
-
+    color:white;
 }
