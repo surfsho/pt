@@ -212,7 +212,7 @@
         
         <img src="Rectangle 9423.png" style="width:99vw;height:32vw;">
         <div class="tbw">
-            <p>Other Features</p>
+            <p style="font-weight:bold;">Other Features</p>
             <p>Online Scheduling</p>
             <p>Two Way Texting</p>
             <p>Broadcast Messaging</p>
