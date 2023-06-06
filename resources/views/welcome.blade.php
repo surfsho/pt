@@ -176,7 +176,7 @@
             <p class="boldtext">OutreachTek Stands Out As A Pioneer In The Dental And Medical Industry </p>
             <p style="font-size:1.5vw;">With years of experience in healthcare management and technology, we possess the expertise to address the unique challenges faced by dental practices. We prioritize data security and compliance with industry regulations, safeguarding sensitive patient information and ensuring HIPAA compliance.</p>
         </div>
-        <img src="iphone.png" class="bl">
+        <img src="Rectangle3919.png" class="bl">
     </div>
     <div>
         <div class="maintext">
@@ -186,7 +186,7 @@
         <div class="rowcol">
         <div style="position:relative;">
         <img src="Vector.png" class="bubble">
-        <img src="Group1261153352.png" class="phone">
+        <img src="iphone.png" class="phone">
         <img src="Ellipse159.png" class="place1">
         <img src="Ellipse159.png" class="place2">
         <img src="Ellipse159.png" class="place3">
