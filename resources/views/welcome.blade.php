@@ -54,14 +54,17 @@
         <header class="header">
         <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#" style="margin-left:5vw;"><img src="https://www.outreachtek.com/assets/img/patient-connect.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+      <ul class="navbar-nav ms-auto me-auto">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         
         <li class="nav-item dropdown dropdown-center">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Features
           </a>
           <div class="dropdown-menu hop">
@@ -84,7 +87,7 @@
             </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Integrations
           </a>
           <ul class="dropdown-menu">
@@ -108,14 +111,15 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">How it works</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item ">
           <a class="nav-link active" aria-current="page" href="#">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Contact</a>
         </li>
-        <button class="btn btn-primary">Schedule a Demo</button>
+        
       </ul>
+      <button class="btn btn-primary btn-lg ms-auto" style="margin-right:5%;">Schedule a Demo</button>
         </nav>
         </header>
         <div  class="hero">
@@ -154,11 +158,11 @@
         </div>
 </div>
         <div class="textbankc rowcol" style="margin-left:25vw;">
-            <img src="Group1261153396.png" style="width:6vw;height:6vw;">
+            <img src="Group1261153396.png" style="width:4vw;height:4vw;">
             <p>HIPAA Compliant</p>
-            <img src="Group1000002244.png" style="width:6vw;height:6vw;">
+            <img src="Group1000002244.png" style="width:4vw;height:4vw;">
             <p>Protected</p>
-            <img src="Group1000002245.png" style="width:6vw;height:6vw;">
+            <img src="Group1000002245.png" style="width:4vw;height:4vw;">
             <p>Safeguarded</p>
         </div>
     </div>
@@ -172,7 +176,7 @@
             <p class="boldtext">OutreachTek Stands Out As A Pioneer In The Dental And Medical Industry </p>
             <p style="font-size:1.5vw;">With years of experience in healthcare management and technology, we possess the expertise to address the unique challenges faced by dental practices. We prioritize data security and compliance with industry regulations, safeguarding sensitive patient information and ensuring HIPAA compliance.</p>
         </div>
-        <img src="Rectangle3919.png" class="bl">
+        <img src="iphone.png" class="bl">
     </div>
     <div>
         <div class="maintext">
@@ -187,14 +191,15 @@
         <img src="Ellipse159.png" class="place2">
         <img src="Ellipse159.png" class="place3">
         </div>
+        
         <div class="col2">
-        <img src="Rectangle 9434.png" style="margin-left: 10vw;">
-        <img src="Rectangle 9433.png" style="margin-left: 11.7vw;">
-        <img src="Rectangle 9430.png" style="margin-left: 13.5vw;">
-        <img src="Vector 2.png" style="margin-left: 15.1vw;width: 5vw;">
-        <img src="Rectangle 9427.png" style="margin-left: 13.4vw">
-        <img src="Rectangle 9431.png" style="margin-left: 11.6vw;">
-        <img src="Rectangle 9431.png" style="margin-left:9.8vw;">
+        <img src="Rectangle 9436.png" >
+        <img src="Rectangle 9436.png" >
+        <img src="Rectangle 9436.png" >
+        <img src="Rectangle 9436.png" >
+        <img src="Rectangle 9436.png" >
+        <img src="Rectangle 9436.png" >
+        <img src="Rectangle 9436.png" >
         </div>
         <div class="text">
             <div class="pre"><p>01</p><p>WhatsApp Messaging</p></div>
@@ -206,13 +211,12 @@
             <div class="pre"><p>07</p><p>Patient Recall</p></div>
         </div>
         </div>
+        
     </div>
     <div class="blockw">
-        <div class="rowcol">
         
-        <img src="Rectangle 9423.png" style="width:99vw;height:32vw;">
         <div class="tbw">
-            <p style="font-weight:bold;">Other Features</p>
+            <p style="font-weight:bold;font-size:2vw;">Other Features</p>
             <p>Online Scheduling</p>
             <p>Two Way Texting</p>
             <p>Broadcast Messaging</p>
@@ -221,39 +225,41 @@
             <p>Virtual Check-In</p>
             <p>Analytical Dashboard</p>
         </div>
-        </div>
+        <img src="Rectangle 9423.png" style="width:99vw;height:24vw;position:absolute;top:0px;">
+        
+        
         <img src="Rectangle 9424.png" style="position: absolute;
-    width: 60vw;
-    height: 32vw;
+    width: 50vw;
+    height: 24vw;
     top: 0px;
     right: 0vw;">
         <img src="portrait.png" style="    position: absolute;
-    top: -5vw;
-    right: 8vw;
-    width: 32vw;">
+    top: 1vw;
+    right: 12vw;
+    width: 20vw;">
 </div>
     </div>
     <div class="rowcol" style="margin-bottom:10vh;">
         <div class="col3" style="text-align:center;">
-            <div class="col2number">
+            <p class="col2number">
                 1
-            </div>
+</p>
             <p>Sign up</p>
             <p>Fill out the required information, such as your name, email address, and practice details</p>
         </div>
         <div class="spacer"></div>
         <div class="col3" style="text-align:center;">
-            <div class="col2number" style="left:13vw;">
+            <p class="col2number">
                 2
-            </div>
+</p>
             <p>Install Synchronizer</p>
             <p>After signing up, you will receive an email with instructions on how to download and install the synchronizer.</p>
         </div>
         <div class="spacer"></div>
         <div class="col3" style="text-align:center;">
-            <div class="col2number" style="left:8vw;">
+            <p class="col2number">
                 3
-            </div>
+            </p>
             <p>Sync Data With PMS</p>
             <p>Initiate the data sync process by clicking button in the synchronizer application.</p>
         </div>
@@ -338,14 +344,14 @@ hour savings</p>
                 <img src="logowhite.png" width="120" height="50">
             </div>
             <div>
-                <p style="font-weight:bold;">
+                <p style="font-weight:bold;font-size:1.5vw;">
                 Useful Links
                 </p>
                 <p>Home</p>
                 
 </div>
 <div>
-<p style="font-weight:bold;">Features</p>
+<p style="font-weight:bold;font-size:1.5vw;">Features</p>
                 
                 <p>WhatsApp Mesaaging</p>
                 <p>Appointment Reminders</o>
@@ -354,7 +360,7 @@ hour savings</p>
 </div>
 <div>
                 
-            <p style="font-weight:bold;">Features</p>
+            <p style="font-weight:bold;font-size:1.5vw;">Features</p>
             <p>Patient Recall</p>
             <p>   Pre & Post Care Messaging</p>
             <p>   Broadcast Messaging </p>
@@ -364,7 +370,7 @@ hour savings</p>
             </div>
             <div>
                 
-            <p style="font-weight:bold;">Features</p>
+            <p style="font-weight:bold;font-size:1.5vw;">Features</p>
 
         <p>    Reputation Management </p>
           <p>      Insurance Verification </p>
@@ -387,7 +393,7 @@ hour savings</p>
             
         </section>
         <section style="background-color: #3D9DE1;color:white;padding:5px;border-top:1px solid white;">
-            <p style="margin-left:74vw;">© All rights reserved. Made by Information Data Systems</p>
+            <p style="margin-left:70vw;margin-top:2vw;margin-bottom:2vw;font-size:1vw;">© All rights reserved. Made by Information Data Systems</p>
 </section>
     </body>
 </html>
