@@ -340,7 +340,7 @@ hour savings</p>
 <p style="font-weight:bold;font-size:1.5vw;">Features</p>
                 
                 <p>WhatsApp Mesaaging</p>
-                <p><a href="/appointment">Appointment Reminders</a></p>
+                <p><a href="/pt/public/appointment">Appointment Reminders</a></p>
                 <p>Two Way Texting</p>
                 <p>Patient Digital Forms</p>
 </div>

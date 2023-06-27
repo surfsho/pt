@@ -85,7 +85,7 @@
           <div class="dropdown-menu hop">
           <ul>
             <li><a class="dropdown-item" href="#">Whatsapp Mesaaging</a></li>
-            <li><a class="dropdown-item" href="/appointment">Appointment Reminders</a></li>
+            <li><a class="dropdown-item" href="/pt/public/appointment">Appointment Reminders</a></li>
             
             <li><a class="dropdown-item" href="#">Two way Texting</a></li>
             <li><a class="dropdown-item" href="#">Patient Digital Forms</a></li>
@@ -218,7 +218,7 @@
         </div>
         <div class="text">
             <div class="pre"><p>01</p><p>WhatsApp Messaging</p></div>
-            <div class="pre"><p>02</p><p><a href="/appointment">Reminders & Confirmation</a></p></div>
+            <div class="pre"><p>02</p><p><a href="/pt/public/appointment">Reminders & Confirmation</a></p></div>
             <div class="pre"><p>03</p><p>Digital Forms</p></div>
             <div class="pre"><p>04</p><p>PrePost Care Messaging</p></div>
             <div class="pre"><p>05</p><p>Reputation Management</p></div>
@@ -404,7 +404,7 @@ hour savings</p>
 <p style="font-weight:bold;font-size:1.5vw;">Features</p>
                 
                 <p>WhatsApp Mesaaging</p>
-                <p><a href="/appointment">Appointment Reminders</a></o>
+                <p><a href="/pt/public/appointment">Appointment Reminders</a></o>
                 <p>Two Way Texting</p>
                 <p>Patient Digital Forms</p>
 </div>
