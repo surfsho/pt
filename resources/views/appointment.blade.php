@@ -79,7 +79,7 @@ items.forEach((el) => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto me-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/pt/public">Home</a>
         </li>
         
         <li class="nav-item dropdown dropdown-center">
@@ -126,9 +126,6 @@ items.forEach((el) => {
             <li><a class="dropdown-item" href="#">PracticeWorks</a></li>
             <li><a class="dropdown-item" href="#">Qsi Dental Web(QDw)</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">How it works</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link active" aria-current="page" href="#">About</a>
@@ -333,7 +330,7 @@ hour savings</p>
                 <p style="font-weight:bold;font-size:1.5vw;">
                 Useful Links
                 </p>
-                <p>Home</p>
+                <p><a href="/pt/public">Home</a></p>
                 
 </div>
 <div>

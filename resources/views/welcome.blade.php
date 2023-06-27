@@ -75,7 +75,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto me-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/pt/public/">Home</a>
         </li>
         
         <li class="nav-item dropdown dropdown-center">
@@ -123,9 +123,6 @@
             <li><a class="dropdown-item" href="#">Qsi Dental Web(QDw)</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">How it works</a>
-        </li>
         <li class="nav-item ">
           <a class="nav-link active" aria-current="page" href="#">About</a>
         </li>
@@ -158,7 +155,7 @@
                 <p class="ctext">Revenue Generation</p>
             </div>
             </div>
-            <div class="rowcol buttons2">
+            <div class="rowcol buttons2 d-flex justify-content-center">
                 <button class="btn btn-primary btn-lg">Get Started</button>
                 <button class="btn btn-outline-primary btn-lg">Demo Videos</button>
             </div>
@@ -397,7 +394,7 @@ hour savings</p>
                 <p style="font-weight:bold;font-size:1.5vw;">
                 Useful Links
                 </p>
-                <p>Home</p>
+                <p><a href="/pt/public/">Home</a></p>
                 
 </div>
 <div>
