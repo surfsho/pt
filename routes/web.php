@@ -25,6 +25,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/appointment', function () {
+    SEOTools::setTitle('appointment');
+    SEOTools::setDescription('This is my page description');
+    return view('appointment');
+});
+
 Route::post('/sendemail', function (Request $request) {
     DB::table('subscriber')->insert([
         'name' => $request->input('name'),

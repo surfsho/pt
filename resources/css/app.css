@@ -620,3 +620,128 @@ table {
     width: 200px;
     height: 50px;
 }
+
+.blue {
+    width: 28vw;
+    height: 180px;
+    background-color:#EBF7FF;
+    padding: 20px;
+    margin: 10px;
+    text-align:center;
+}
+
+.blue > p:nth-child(1) {
+    font-size: 30px;
+}
+
+.hero > * {
+    margin-left: 50px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+a {
+    text-decoration:none!important;
+    color:inherit !important;
+}
+
+.dental-appointment {
+    font-size:30px;
+    color:#2694E1;
+}
+
+.prevent-patient {
+    font-size: 3vw;
+    font-weight:700;
+}
+
+.noshows-gap {
+    width:100px;
+    height:8px;
+}
+
+.noshowsat {
+    font-size:3vw;
+    font-weight:700;
+}
+
+.yourpracticeline {
+    width:150px;height:8px;background-color:#2694E1;
+}
+
+.yourpractice {
+    font-size:3vw;font-weight:700;
+}
+
+.johndoebox {
+    position:relative;
+    background-image:url('image 16.png');
+    background-color: #2694E1;
+    width:100%;
+    height:400px;
+}
+
+.johndoebox2 {
+    position:absolute;top:0px;padding:40px;
+}
+
+.johndoeboxp {
+    background-color: #EBF7FF;padding:10px;font-size:18px; text-align:center;
+}
+
+.johndoeboxtext {
+    background-color: white;padding:10px;text-align:center;font-size:18px;
+}
+
+.flexbox {
+    width:60%;
+}
+
+.flexboxp {
+    font-size:20px;width:80%;
+}
+
+.texttext {
+    width:80%;
+    text-align:right;
+}
+
+.textp {
+    font-size:36px;
+}
+
+.textp2 {
+    font-size:20px;
+}
+
+.schedulebox {
+    position:relative;background-color:#2694E1;color:white;padding:50px;padding-left:5%;
+}
+
+.scheduleboxtext {
+    width:500px;
+}
+
+.scheduleboxtextp {
+    font-size:34px;
+}
+
+.scheduleboxtextp2 {
+    font-size:24px;
+}
+
+.paddedbox {
+    position:relative;padding:70px;
+}
+
+.paddedboxtext {
+    font-size:30px;width:250px;padding-top:8%;
+}
+
+.paddedboxgrid {
+    display:grid;grid-template-columns:30vw 30vw;z-index:1;margin-top:5%;
+}
+
+.blue > p:nth-child(1) {
+    font-size: 20px;
+}

@@ -46,7 +46,8 @@
     $(window).on('load',function() {
  $("#staticBackdrop").modal('toggle')
  let items = document.querySelectorAll('.carousel .carousel-item')
- items.forEach((el) => {
+
+items.forEach((el) => {
     console.log(el);
     const minPerSlide = 5
     let next = el.nextElementSibling
@@ -61,6 +62,9 @@
     }
 })
     });
+
+    
+
 </script>    
 
 </head>
@@ -85,7 +89,7 @@
           <div class="dropdown-menu hop">
           <ul>
             <li><a class="dropdown-item" href="#">Whatsapp Mesaaging</a></li>
-            <li><a class="dropdown-item" href="/appointment">Appointment Reminders</a></li>
+            <li><a class="dropdown-item" href="#">Appointment Reminders</a></li>
             
             <li><a class="dropdown-item" href="#">Two way Texting</a></li>
             <li><a class="dropdown-item" href="#">Patient Digital Forms</a></li>
@@ -137,150 +141,81 @@
       <button class="btn btn-primary btn-lg ms-auto" style="margin-right:5%;">Schedule a Demo</button>
         </nav>
         </header>
-        <div  class="hero">
-            <div class="textc">
-            <h1>Connecting Providers, Patients and Front Office with Seamless Software Solution</h1>
-            <p>Unleash Efficiency</p>
-            <p>Uncover the Blissful Efficiency of Patient Connect!</p>
+        <div  class="hero d-flex justify-content-between">
+        <div>
+         <p class="dental-appointment">Appointment Reminders</p>
+         <p class="prevent-patient">Prevent Patient</p>
+         <div class="d-flex">
+         <div class="noshows-gap"></div>
+         <p class="noshowsat">No-Shows At </p>
+        </div>
+         <div class="d-flex align-items-center">
+         <div class="yourpracticeline "></div>
+         <p class="yourpractice">Your Practice</p>
+         </div>
+         <div style=" position:relative;
+    background-image:url('image 16.png');
+    background-color: #2694E1;
+    width:100%;
+    height:350px;">
+         <div class="johndoebox2">
+         <div class="johndoeboxp">
+         Automatic Appointment Confirmation
+         </div>
+         <div class="johndoeboxtext">
+         <img src="check-mark.png">
+         <p>Hi John Deo</p>
+         <p>You have an appointment with Dr. Wills John on Monday, 2023-02-13. Please reply 'Y' to Confirm or 'N' to reschedule.  Thanks From Team DentalDoc</p>
+         </div>
+         </div>
+         </div>
 </div>
-            <div class="rowcol">
-            <div class="rowcol" style="position:relative;right:1vw;">
-            <img src="Group.png" class="group">
-            <img src="Rectangle9420.png" style="width:70vw;">
-            <img src="left-arrow.png" class="group2">
-            </div>
-            <div class="textbc">
-                <p class="btext">Significant</p>
-                <p class="ctext">Time Savings</p>
-                <p class="btext">Boost In</p>
-                <p class="ctext">Appointment Attendance</p>
-                <p class="btext">Enhanced</p>
-                <p class="ctext">Revenue Generation</p>
-            </div>
-            </div>
-            <div class="rowcol buttons2">
-                <button class="btn btn-primary btn-lg">Get Started</button>
-                <button class="btn btn-outline-primary btn-lg">Demo Videos</button>
-            </div>
+<div class="flexbox">
+    <p class="flexboxp">Take advantage of our patient communication platform to minimize missed appointments by sending customized, timely reminder messages.</p>
+    <img src="Union.png" style="width:80%;height:40vw;">
+    <div class="texttext">
+    <p class="textp">Automatic Appointment Confirmations</p>
+    <p class="textp2">Patients can easily confirm their appointment by responding to the reminder</p>
+    </div>
 </div>
-    <div>
-        <div class="rowcol" style="height:30vw;">
-        <img src="Rectangle3921.png" style="width:50vw;">
-        <div class="textban">
-            <p class="textbanc">Patient Connect is an easy to use and integrated solution for healthcare providers</p>
-            <p class="textbank">Revolutionizes Patient Communication by automating essential tasks like Appointment Scheduling, Reminder Messages, and Ensuring Seamless Efficiency and Precise Monitoring</p>
-            
-        </div>
 </div>
-        <div class="textbankc rowcol" style="margin-left:25vw;">
-            <img src="Group1261153396.png" style="width:4vw;height:4vw;">
-            <p>HIPAA Compliant</p>
-            <img src="Group1000002244.png" style="width:4vw;height:4vw;">
-            <p>Protected</p>
-            <img src="Group1000002245.png" style="width:4vw;height:4vw;">
-            <p>Safeguarded</p>
-        </div>
-    </div>
-    <div class="rowcol plusabout">
-        <div class="bl2">
-            <div class="rowcol"><p class="colorblock">15+</p><p>Years</p></div>
-            <p>of Experience</p>
-        </div>
-        <div class="bl">
-            <p class="colortext">ABOUT US</p>
-            <p class="boldtext">OutreachTek Stands Out As A Pioneer In The Dental And Medical Industry </p>
-            <p style="font-size:1.5vw;">With years of experience in healthcare management and technology, we possess the expertise to address the unique challenges faced by dental practices. We prioritize data security and compliance with industry regulations, safeguarding sensitive patient information and ensuring HIPAA compliance.</p>
-        </div>
-        <img src="Rectangle3919.png" class="bl">
-    </div>
-    <div>
-        <div class="maintext">
-        <p>The Ultimate Patient Connect Features</p>
-        <p>Click on each Feature to learn more</p>
-        </div>
-        <div class="rowcol">
-        <div style="position:relative;">
-        <img src="Vector.png" class="bubble">
-        <img src="iphone.png" class="phone">
-        <img src="Ellipse159.png" class="place1">
-        <img src="Ellipse159.png" class="place2">
-        <img src="Ellipse159.png" class="place3">
-        </div>
-        
-        <div class="col2">
-        <img src="Rectangle 9436.png" >
-        <img src="Rectangle 9436.png" >
-        <img src="Rectangle 9436.png" >
-        <img src="Rectangle 9436.png" >
-        <img src="Rectangle 9436.png" >
-        <img src="Rectangle 9436.png" >
-        <img src="Rectangle 9436.png" >
-        </div>
-        <div class="text">
-            <div class="pre"><p>01</p><p>WhatsApp Messaging</p></div>
-            <div class="pre"><p>02</p><p><a href="/appointment">Reminders & Confirmation</a></p></div>
-            <div class="pre"><p>03</p><p>Digital Forms</p></div>
-            <div class="pre"><p>04</p><p>PrePost Care Messaging</p></div>
-            <div class="pre"><p>05</p><p>Reputation Management</p></div>
-            <div class="pre"><p>06</p><p>Insurance Verification</p></div>
-            <div class="pre"><p>07</p><p>Patient Recall</p></div>
-        </div>
-        </div>
-        
-    </div>
-    <div class="blockw">
-        
-        <div class="tbw">
-            <p style="font-weight:bold;font-size:2vw;">Other Features</p>
-            <p>Online Scheduling</p>
-            <p>Two Way Texting</p>
-            <p>Broadcast Messaging</p>
-            <p>Marketing Campaigns</p>
-            <p>SmartCaller</p>
-            <p>Virtual Check-In</p>
-            <p>Analytical Dashboard</p>
-        </div>
-        <img src="Rectangle 9423.png" style="width:99vw;height:24vw;position:absolute;top:0px;">
-        
-        
-        <img src="Rectangle 9424.png" style="position: absolute;
-    width: 50vw;
-    height: 24vw;
-    top: 0px;
-    right: 0vw;">
-        <img src="portrait.png" style="    position: absolute;
-    top: 1vw;
-    right: 12vw;
-    width: 20vw;">
-</div>
-    </div>
-    <div class="rowcol" style="margin-bottom:10vh;">
-        <div class="col3" style="text-align:center;">
-            <p class="col2number">
-                1
-</p>
-            <p>Sign up</p>
-            <p>Fill out the required information, such as your name, email address, and practice details</p>
-        </div>
-        <div class="spacer"></div>
-        <div class="col3" style="text-align:center;">
-            <p class="col2number">
-                2
-</p>
-            <p>Install Synchronizer</p>
-            <p>After signing up, you will receive an email with instructions on how to download and install the synchronizer.</p>
-        </div>
-        <div class="spacer"></div>
-        <div class="col3" style="text-align:center;">
-            <p class="col2number">
-                3
-            </p>
-            <p>Sync Data With PMS</p>
-            <p>Initiate the data sync process by clicking button in the synchronizer application.</p>
-        </div>
-    </div>
 
-    <div style="margin-top:5%;margin-bottom:5%;">
+<div class="d-flex justify-content-between schedulebox">
+    <div class="scheduleboxtext">
+    <p class="scheduleboxtextp">Schedule Appointment Reminders</p>
+    <p class="scheduleboxtextp2">Reduce missed appointments by automatically sending personalized reminders to your patients. You can send multiple reminders as per options available prior to the scheduled appointment to ensure maximum attendance</p>
+</div>
+    <div style="position:relative;width:50%;">
+        <img src="Group 1261153480.png" style="position:absolute;left:80px;top:0px;z-index:1;">
+        <img src="Group 1261153480.png" style="position:absolute;top:100px;">
+    </div>
+</div>
+        
+<div class="d-flex justify-content-around paddedbox">
+    <p class="paddedboxtext">What are the benefits of using Automated
+ Appointment Reminders?</p>
+    <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
+    <div class="paddedboxgrid">
+        <div class="blue">
+            <p>No Missed Appointments</p>
+            <p>Improved communication results in fewer missed appointments.</p>
+        </div>
+        <div class="blue">
+            <p>Easy of Communication</p>
+            <p>Simplify patient communication with your Pratice</p>
+        </div>
+        <div class="blue">
+            <p>Patient Preference</p>
+            <p>2/3rd of Patients Prefer Text Messaging</p>
+        </div>
+        <div class="blue">
+            <p>Saves Time</p>
+            <p>Quick,Efficient, concise, and tailored communications</p>
+        </div>
+</div>
+</div>
+
+<div style="margin-top:5%;margin-bottom:5%;">
     <p style="font-size:52px;text-align:center;padding:20px;">Integration</p>
     <div class="carousel slide " data-bs-ride="carousel" style="background-color:#FBE3A4;padding:5%;padding-left:20%;">
         <div class="carousel-inner">
@@ -314,6 +249,7 @@
 </div>
     </div>
 </div>
+    
     <!-- <div>
         <div class="maintext">
         <p>What our clients say</p>
@@ -404,7 +340,7 @@ hour savings</p>
 <p style="font-weight:bold;font-size:1.5vw;">Features</p>
                 
                 <p>WhatsApp Mesaaging</p>
-                <p><a href="/appointment">Appointment Reminders</a></o>
+                <p><a href="/appointment">Appointment Reminders</a></p>
                 <p>Two Way Texting</p>
                 <p>Patient Digital Forms</p>
 </div>
