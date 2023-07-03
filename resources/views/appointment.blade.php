@@ -1,161 +1,20 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        
-        <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>Home</title>
-        {!! SEO::generate(true) !!}
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        @vite("resources/css/app.css")
-
-              <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css">
-    <script>
-        var botmanWidget = {
-            aboutText: 'patientconnect help',
-            introMessage: "✋ Hi! I'm from PatientConnect",
-            title: "PatientConnect"
-        };
-    </script>
-   
-    <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
-       
-          <script src="https://kit.fontawesome.com/1ba093438b.js" crossorigin="anonymous"></script>
-            <script>
-                function submit() {
-                    let name = document.querySelector("#exampleFormControlInput1");
-                    let email = document.querySelector("#exampleFormControlInput2");
-                    let subject = document.querySelector("#exampleFormControlInput3");
-                    let message = document.querySelector("#exampleFormControlTextarea1");
-                    let formData = new FormData();
-                    formData.append('name', name.value);
-                    formData.append('email', email.value);
-                    formData.append('subject', subject.value);
-                    formData.append('message', message.value);
-                    fetch('/sendemail',{method:'POST',headers: {
-    'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
-  },body:formData});
-                }
-            </script>
-           
-            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
-<script type="text/javascript">
-    $(window).on('load',function() {
- $("#staticBackdrop").modal('toggle')
- let items = document.querySelectorAll('.carousel .carousel-item')
-
-items.forEach((el) => {
-    console.log(el);
-    const minPerSlide = 5
-    let next = el.nextElementSibling
-    for (var i=1; i<minPerSlide; i++) {
-        if (!next) {
-            // wrap carousel by using first child
-        	next = items[0]
-      	}
-        let cloneChild = next.cloneNode(true)
-        el.appendChild(cloneChild.children[0])
-        next = next.nextElementSibling
-    }
-})
-    });
-
-    
-
-</script>    
-
-</head>
-    <body class="antialiased" style="background-image:none;">
-    @include('cookie-consent::index')
-        <header class="header">
-        <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#" style="margin-left:5vw;"><img src="https://www.outreachtek.com/assets/img/patient-connect.png"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto me-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/pt/public">Home</a>
-        </li>
-        
-        <li class="nav-item dropdown dropdown-center">
-          <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Features
-          </a>
-          <div class="dropdown-menu hop">
-          <ul>
-            <li><a class="dropdown-item" href="#">Whatsapp Mesaaging</a></li>
-            <li><a class="dropdown-item" href="#">Appointment Reminders</a></li>
-            
-            <li><a class="dropdown-item" href="#">Two way Texting</a></li>
-            <li><a class="dropdown-item" href="#">Patient Digital Forms</a></li>
-            <li><a class="dropdown-item" href="#">Patient Recall</a></li>
-            <li><a class="dropdown-item" href="#">Pre And Post Care Messaging</a></li>
-            <li><a class="dropdown-item" href="#">Broadcast Messaging</a></li>
-            <li><a class="dropdown-item" href="#">Marketing Campaigns</a></li>
-            <li><a class="dropdown-item" href="#">Reputation Management</a></li>
-            <li><a class="dropdown-item" href="#">Insurance verification</a></li>
-            <li><a class="dropdown-item" href="#">SmartCaller</a></li>
-            
-            <li><a class="dropdown-item" href="#">Virtual Check-In</a></li>
-          </ul>
-            </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Integrations
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Curve Hero</a></li>
-            <li><a class="dropdown-item" href="#">Denticon</a></li>
-            
-            <li><a class="dropdown-item" href="#">Dentrix</a></li>
-            <li><a class="dropdown-item" href="#">Dentrix Ascend</a></li>
-            <li><a class="dropdown-item" href="#">Dentrix Enterprise</a></li>
-            <li><a class="dropdown-item" href="#">Dolphin</a></li>
-            <li><a class="dropdown-item" href="#">Dr chrono</a></li>
-            <li><a class="dropdown-item" href="#">Eaglesoft</a></li>
-            <li><a class="dropdown-item" href="#">eclincialworks</a></li>
-            <li><a class="dropdown-item" href="#">OpenDental</a></li>
-            <li><a class="dropdown-item" href="#">Orthotrac</a></li>
-            
-            <li><a class="dropdown-item" href="#">PracticeWorks</a></li>
-            <li><a class="dropdown-item" href="#">Qsi Dental Web(QDw)</a></li>
-          </ul>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link active" aria-current="page" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Contact</a>
-        </li>
-        
-      </ul>
-      <button class="btn btn-primary btn-lg ms-auto" style="margin-right:5%;">Schedule a Demo</button>
-        </nav>
-        </header>
-        <div  class="hero d-flex justify-content-between">
+@extends('body')
+@section('content')
+        <div  class="hero d-flex">
+        <div style="width:50%;">
         <div>
-         <p class="dental-appointment">Appointment Reminders</p>
-         <p class="prevent-patient">Prevent Patient</p>
-         <div class="d-flex">
-         <div class="noshows-gap"></div>
-         <p class="noshowsat">No-Shows At </p>
+         <p class="dental-appointment">Appointment Reminders </p>
+         <p class="prevent-patient">Prevent Patient No-Shows</p>
+         <p class="noshowsat">At Your Practice</p>
         </div>
-         <div class="d-flex align-items-center">
-         <div class="yourpracticeline "></div>
-         <p class="yourpractice">Your Practice</p>
-         </div>
+
+        
          <div style=" position:relative;
     background-image:url('image 16.png');
     background-color: #2694E1;
     width:100%;
-    height:350px;">
-         <div class="johndoebox2">
+    height:500px;">
+         <div style="padding:16%;">
          <div class="johndoeboxp">
          Automatic Appointment Confirmation
          </div>
@@ -169,7 +28,7 @@ items.forEach((el) => {
 </div>
 <div class="flexbox">
     <p class="flexboxp">Take advantage of our patient communication platform to minimize missed appointments by sending customized, timely reminder messages.</p>
-    <img src="Union.png" style="width:80%;height:40vw;">
+    <img src="Union.png" style="width:90%;height:30vw;">
     <div class="texttext">
     <p class="textp">Automatic Appointment Confirmations</p>
     <p class="textp2">Patients can easily confirm their appointment by responding to the reminder</p>
@@ -177,14 +36,14 @@ items.forEach((el) => {
 </div>
 </div>
 
-<div class="d-flex justify-content-between schedulebox">
+<div class="d-flex schedulebox justify-content-between">
     <div class="scheduleboxtext">
     <p class="scheduleboxtextp">Schedule Appointment Reminders</p>
     <p class="scheduleboxtextp2">Reduce missed appointments by automatically sending personalized reminders to your patients. You can send multiple reminders as per options available prior to the scheduled appointment to ensure maximum attendance</p>
 </div>
-    <div style="position:relative;width:50%;">
-        <img src="Group 1261153480.png" style="position:absolute;left:80px;top:0px;z-index:1;">
-        <img src="Group 1261153480.png" style="position:absolute;top:100px;">
+    <div style="position:relative;width:30%;margin:6%;" class="d-flex align-items-end">
+        <img src="schedule.png" style="position:relative;top:-100px;width:120%;">
+        <img src="schedule.png" style="position:relative;left:-140%;top:0px;z-index:1;width:120%;">
     </div>
 </div>
         
@@ -322,61 +181,4 @@ hour savings</p>
         </div>
 </div>
 </div> -->
-<section class="rflex" style="background-color: #3D9DE1;color:white;">
-            <div style="width: 300px;">
-                <img src="logowhite.png" width="120" height="50">
-            </div>
-            <div>
-                <p style="font-weight:bold;font-size:1.5vw;">
-                Useful Links
-                </p>
-                <p><a href="/pt/public">Home</a></p>
-                
-</div>
-<div>
-<p style="font-weight:bold;font-size:1.5vw;">Features</p>
-                
-                <p>WhatsApp Mesaaging</p>
-                <p><a href="/pt/public/appointment">Appointment Reminders</a></p>
-                <p>Two Way Texting</p>
-                <p>Patient Digital Forms</p>
-</div>
-<div>
-                
-            <p style="font-weight:bold;font-size:1.5vw;">Features</p>
-            <p>Patient Recall</p>
-            <p>   Pre & Post Care Messaging</p>
-            <p>   Broadcast Messaging </p>
-        <p>   Marketing Campaigns  </p>
-        
-                
-            </div>
-            <div>
-                
-            <p style="font-weight:bold;font-size:1.5vw;">Features</p>
-
-        <p>    Reputation Management </p>
-          <p>      Insurance Verification </p>
-            <p>    SmartCaller </p>
-            <p>    Virtual Check-In </p>
-                
-            </div>
-            <div>
-            
-            </div>
-            <div style="margin-left:auto;">
-                <p style="font-size:28px;">Follow us</p>
-                <div style="flex-direction:row !important;margin:0px;justify-content:space-between;width:10vw;">
-                    <img src="facebook.png">
-                    <img src="instagram.png">
-                    <img src="discord.png">
-                    <img src="twitter.png">
-                </div>
-            </div>
-            
-        </section>
-        <section style="background-color: #3D9DE1;color:white;padding:5px;border-top:1px solid white;">
-            <p style="margin-left:70vw;margin-top:2vw;margin-bottom:2vw;font-size:1vw;">© All rights reserved. Made by Information Data Systems</p>
-</section>
-    </body>
-</html>
+@stop
