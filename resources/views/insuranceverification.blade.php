@@ -1,6 +1,6 @@
 @extends('body')
 @section('content')
-<div  class="hero">
+<div  class="hero2">
     <div class="d-flex justify-content-around">
     <div class="box">
         <p class="dental-appointment">Insurance Verification<p>

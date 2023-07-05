@@ -1,20 +1,14 @@
 @extends('body')
 @section('content')
-        <div  class="hero d-flex">
-        <div style="width:50%;">
-        <div>
-         <p class="dental-appointment">Appointment Reminders </p>
-         <p class="prevent-patient">Prevent Patient No-Shows</p>
-         <p class="noshowsat">At Your Practice</p>
-        </div>
-
-        
-         <div style=" position:relative;
-    background-image:url('image 16.png');
-    background-color: #2694E1;
-    width:100%;
-    height:500px;">
-         <div style="padding:16%;">
+        <div  class="hero3 d-flex" style="padding-bottom:10%;">
+        <div style="width:80%;height:100%;margin-top:5%;">
+         <p style="font-size:52px;">Appointment Reminders </p>
+         <p style="font-size:28px;">Prevent Patient No-Shows At Your Practice</p>
+         <p class="flexboxp">Take advantage of our patient communication platform to minimize missed appointments by sending customized, timely reminder messages.</p>
+         <button class="btn btn-primary btn-lg">Button</button>
+         </div>
+         <div style="position:relative;height:100%;margin-top:100px;">
+         <div style="width:80%;height:50%;margin:auto;z-index:5;position:relative;">
          <div class="johndoeboxp">
          Automatic Appointment Confirmation
          </div>
@@ -23,16 +17,36 @@
          <p>Hi John Deo</p>
          <p>You have an appointment with Dr. Wills John on Monday, 2023-02-13. Please reply 'Y' to Confirm or 'N' to reschedule.  Thanks From Team DentalDoc</p>
          </div>
-         </div>
-         </div>
+        
+
+</div>  
+            <img src="Ellipse159.png" width="40" style="position:absolute;top:-50px;left:100px;">
+            <img src="Ellipse159.png" width="50" style="position:absolute;top:250px;">
+            <img src="Ellipse159.png" width="40" style="position:absolute;bottom:-50px;left:80%;z-index:1;">
+            <img src="Vector.png" width="350" style="position:absolute;top:-30px;right:10%;">
+            <img src="bg.png" width="250" style="position:absolute;bottom:-5%;right:8%;">
+
 </div>
-<div class="flexbox">
-    <p class="flexboxp">Take advantage of our patient communication platform to minimize missed appointments by sending customized, timely reminder messages.</p>
-    <img src="Union.png" style="width:90%;height:30vw;">
-    <div class="texttext">
-    <p class="textp">Automatic Appointment Confirmations</p>
-    <p class="textp2">Patients can easily confirm their appointment by responding to the reminder</p>
-    </div>
+</div>
+
+<div class="d-flex box2 schedulebox" style="height:600px;">
+    <img src="Vectorcircle.png" style="position: absolute;
+    z-index: 1;
+    left: 10%;" width="500">
+<div style="width:500px;color:black;z-index:2;margin:auto;">
+         <div class="johndoeboxp">
+         Automatic Appointment Confirmation
+         </div>
+         <div class="johndoeboxtext">
+         <img src="check-mark.png">
+         <p>Hi John Deo</p>
+         <p>You have an appointment with Dr. Wills John on Monday, 2023-02-13. Please reply 'Y' to Confirm or 'N' to reschedule.  Thanks From Team DentalDoc</p>
+         </div>
+
+</div>  
+<div class="scheduleboxtext" style="color:black;margin:auto;">
+    <p class="scheduleboxtextp" style="font-size:32px;">Automatic Appointment Confirmations</p>
+    <p class="scheduleboxtextp2" style="font-size:25px;">Patients can easily confirm their appointment by responding to the automated reminder</p>
 </div>
 </div>
 
@@ -42,15 +56,15 @@
     <p class="scheduleboxtextp2">Reduce missed appointments by automatically sending personalized reminders to your patients. You can send multiple reminders as per options available prior to the scheduled appointment to ensure maximum attendance</p>
 </div>
     <div style="position:relative;width:30%;margin:6%;" class="d-flex align-items-end">
-        <img src="schedule.png" style="position:relative;top:-100px;width:120%;">
-        <img src="schedule.png" style="position:relative;left:-140%;top:0px;z-index:1;width:120%;">
+        <img src="schedule.png" style="position:relative;top:-50px;width:80%;z-index:1;">
+        <img src="schedule.png" style="position:relative;left:-140%;top:0px;width:80%;">
     </div>
 </div>
         
-<div class="d-flex justify-content-around paddedbox">
+<div class="d-flex flex-column justify-content-center align-items-center paddedbox">
     <p class="paddedboxtext">What are the benefits of using Automated
  Appointment Reminders?</p>
-    <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
+    
     <div class="paddedboxgrid">
         <div class="blue">
             <p>No Missed Appointments</p>
@@ -71,7 +85,7 @@
 </div>
 </div>
 
-<div style="margin-top:5%;margin-bottom:5%;">
+<div style="margin-bottom:5%;">
     <p style="font-size:52px;text-align:center;padding:20px;">Integration</p>
     <div class="carousel slide " data-bs-ride="carousel" style="background-color:#FBE3A4;padding:5%;padding-left:20%;">
         <div class="carousel-inner">

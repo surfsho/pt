@@ -15,7 +15,6 @@ body {
     font-family:sans-serif;
     
     font-size:30px;
-    padding-bottom: 300px !important;
 }
 
 .header {
@@ -635,11 +634,23 @@ table {
 }
 
 .blue > p:nth-child(1) {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .hero {
+    padding:20px;
+}
+
+.hero2 {
     padding:80px;
+    background: url(http://localhost:8000/Ellipse6.png) top center;
+    background-size: cover;
+}
+
+.hero3 {
+    padding:80px;
+    background: url(http://localhost:8000/Ellipse6.png) top center;
+    background-size: cover;
 }
 
 a {
@@ -655,7 +666,6 @@ a {
 .prevent-patient {
     font-size: 2vw;
     font-weight: 700;
-    text-align: center;
 }
 
 .noshows-gap {
@@ -716,7 +726,7 @@ a {
 }
 
 .flexboxp {
-    font-size:20px;width:80%;
+    font-size:21px;
 }
 
 .texttext {
@@ -733,27 +743,35 @@ a {
 }
 
 .schedulebox {
-    position:relative;background-color:#2694E1;color:white;padding:50px;padding-left:5%;
+    position:relative;background-color:#2694E1;color:white;
+}
+
+.box2 {
+    background: #2694E11A;
 }
 
 .scheduleboxtext {
     width:40%;
+    padding:30px;
 }
 
 .scheduleboxtextp {
-    font-size:3vw;
+    font-size:26px;
+   
 }
 
 .scheduleboxtextp2 {
-    font-size:2vw;
+    font-size:20px;
+    
 }
 
 .paddedbox {
-    position:relative;padding:70px;
+    position:relative;padding:50px;
 }
 
 .paddedboxtext {
-    font-size:30px;width:250px;padding-top:8%;
+    font-size:30px;text-align:center;
+    width:500px;
 }
 
 .paddedboxgrid {
@@ -761,7 +779,7 @@ a {
 }
 
 .blue > p:nth-child(2) {
-    font-size: 85%;
+    font-size: 18px;
 }
 
 .box {

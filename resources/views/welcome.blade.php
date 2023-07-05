@@ -21,7 +21,7 @@
                 <p class="ctext">Revenue Generation</p>
             </div>
             </div>
-            <div class="rowcol buttons2 d-flex justify-content-center">
+            <div class="d-flex justify-content-center m-5">
                 <button class="btn btn-primary btn-lg">Get Started</button>
                 <button class="btn btn-outline-primary btn-lg">Demo Videos</button>
             </div>

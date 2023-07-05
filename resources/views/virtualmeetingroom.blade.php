@@ -1,6 +1,6 @@
 @extends('body')
 @section('content')
-<div  class="hero d-flex justify-content-around">
+<div  class="hero2 d-flex justify-content-around">
     <div class="box">
         <p class="dental-appointment">Virtual Waiting Room<p>
         <p>Patients can send a text message to the front desk to notify them of their arrival. They can fill out and submit registration forms while waiting in the car, and enter the practice at the scheduled appointment time, reducing wait times and providing a seamless experience</p>

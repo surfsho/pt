@@ -1,6 +1,6 @@
 @extends('body')
 @section('content')
-<div  class="hero d-flex justify-content-around">
+<div  class="hero2 d-flex justify-content-around">
     <div class="box">
         <p class="dental-appointment">Whatsapp Messaging<p>
         <p>Two-way WhatsApp messaging is a cutting-edge communication tool that dental practices are now utilizing to enhance their patient engagement and overall experience. By using this service, dental practices can communicate with their patients through the most popular messaging platform in the world.</p>
