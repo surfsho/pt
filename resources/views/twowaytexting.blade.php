@@ -1,19 +1,19 @@
 @extends('body')
 @section('content')
 <div  class="hero2 hg">
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">A user-friendly texting platform designed specifically for dental practices<p>
         <p>Your patients can now communicate with your practice as easily as they do with their friends and family. Enjoy desktop notifications for incoming texts.</p>
     </div>
     <div>
-        <img src="twowaymessaging.jpg" width="400" height="400">
+        <img src="twowaytextmessaging.png" width="400" height="400">
     </div>
     </div>
 
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div>
-        <img src="telephonesms.jpg" width="400" height="400">
+        <img src="smsmessaging.png" width="400" height="400">
     </div>
     <div class="box">
         <p class="dental-appointment">Send & Receive Messages<p>
@@ -22,17 +22,17 @@
     
     </div>
 
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">Begin sending texts.<p>
         <p>Send Patient Forms, reminders, and other information to your patients via text message.</p>
     </div>
     <div>
-        <img src="digitalform.jpg" width="400" height="400">
+        <img src="digitalform.png" width="400" height="400">
     </div>
     </div>
 </div>
-<div class="d-flex justify-content-around paddedbox">
+<div class="d-flex justify-content-around align-items-center paddedbox">
     <p class="paddedboxtext">What are the benefits of using Two Way Messaging?</p>
     <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
     <div class="paddedboxgrid">

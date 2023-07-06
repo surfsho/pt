@@ -1,19 +1,19 @@
 @extends('body')
 @section('content')
 <div  class="hero2 hg">
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">Effortlessly Recall Patients<p>
         <p>It is noted that most of patients do not schedule their next appointment proactively. Patient Connect, on the other hand, automatically recognizes patients who are due or overdue for their next appointment and sends them personalized messages to remind and encourage them to book their appointment</p>
     </div>
     <div>
-        <img src="patientrecall2.jpg" width="400" height="400">
+        <img src="patientrecall2.png" width="400" height="400">
     </div>
     </div>
 
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div >
-        <img src="patientrecall3.jpg" width="400" height="400">
+        <img src="patient recall3.png" width="400" height="400">
     </div>
     <div class="box">
         <p class="dental-appointment">Timeline for Patient Recall Communication<p>
@@ -22,17 +22,17 @@
     
     </div>
 
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">Reduce your administrative time<p>
         <p>Save time on administration tasks with our automated personalized recall reminders sent via text. Keep your patients on track with their routine care without the hassle of manually scheduling reminders</p>
     </div>
     <div>
-        <img src="patientrecallsavetime.jpg" width="400" height="400">
+        <img src="patientrecallsavestime.png" width="400" height="400">
     </div>
     </div>
 </div>
-<div class="d-flex justify-content-around paddedbox">
+<div class="d-flex justify-content-around align-items-center paddedbox">
     <p class="paddedboxtext">Here are few advantages of using Patient recall</p>
     <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
     <div class="paddedboxgrid">

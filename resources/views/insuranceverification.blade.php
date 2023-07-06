@@ -1,17 +1,17 @@
 @extends('body')
 @section('content')
 <div  class="hero2">
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">Insurance Verification<p>
         <p>Automated dental insurance verification is a technology-driven solution that simplifies the insurance verification process for dental practices. It streamlines the process by automating the verification of patient insurance coverage, eligibility, and benefits, saving valuable time for dental staff and reducing the possibility of errors</p>
     </div>
     <div>
-        <img src="insurance0.jpg" width="400" height="400">
+        <img src="insurance.png" width="400" height="400">
     </div>
     </div>
 </div>
-<div class="d-flex justify-content-around paddedbox">
+<div class="d-flex justify-content-around align-items-center paddedbox">
     <p class="paddedboxtext">Why this?</p>
     <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
     <div class="paddedboxgrid">

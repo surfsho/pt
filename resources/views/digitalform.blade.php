@@ -1,19 +1,19 @@
 @extends('body')
 @section('content')
 <div  class="hero2 hg">
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">Assist your patients in arriving prepared<p>
         <p>Provide a simpler way for your patients to register for an upcoming appointment. Patients can register on their own time and from any device using digital registration forms.</p>
     </div>
     <div>
-        <img src="digitalformsignature.jpg" width="400" height="400">
+        <img src="imgsign.png" width="400" height="400">
     </div>
     </div>
 
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div>
-        <img src="mobileform.jpg" width="400" height="400">
+        <img src="Online document.png" width="400" height="400">
     </div>
     <div class="box">
         <p class="dental-appointment">Digital forms that are both dynamic and fully adaptable<p>
@@ -22,17 +22,17 @@
     
     </div>
 
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">Sync completed forms to your health record software automatically.<p>
         <p>Form responses, including patient medical history, are immediately synced to your health record system, allowing your front office employees to focus on the patient experience rather than scanning or retyping data</p>
     </div>
     <div>
-        <img src="formsync.jpg" width="400" height="400">
+        <img src="Customer Survey.png" width="400" height="400">
     </div>
     </div>
 </div>
-<div class="d-flex justify-content-around paddedbox">
+<div class="d-flex justify-content-around align-items-center paddedbox">
     <p class="paddedboxtext">Benefits of Digital Patient Forms</p>
     <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
     <div class="paddedboxgrid">

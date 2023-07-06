@@ -1,17 +1,17 @@
 @extends('body')
 @section('content')
 <div  class="hero2">
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">Pre and Post Care Messaging<p>
         <p>Pre and Post Care Messaging is an essential part of dental care that aims to improve patient outcomes and satisfaction. This unique service involves automated messages that are sent to patients before and after their dental appointment, providing them with important information and instructions to prepare for and recover from their dental procedures</p>
     </div>
     <div>
-        <img src="preandpostcare.jpg" width="400" height="400">
+        <img src="preandpostcare.png" width="400" height="400">
     </div>
     </div>
 </div>
-<div class="d-flex justify-content-around paddedbox">
+<div class="d-flex justify-content-around align-items-center paddedbox">
     <p class="paddedboxtext">Key advantages to utilizing Pre and Post Care Messaging in dental car</p>
     <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
     <div class="paddedboxgrid">

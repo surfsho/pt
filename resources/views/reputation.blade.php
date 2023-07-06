@@ -1,17 +1,17 @@
 @extends('body')
 @section('content')
 <div  class="hero2">
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">Reputation Management<p>
         <p>Reputation management is a crucial aspect of any dental practice, as it directly impacts the trust and confidence that patients have in the services you provide. A strong reputation management strategy can help you to maintain a positive image and build a loyal patient base</p>
     </div>
     <div>
-        <img src="reputation.jpg" width="400" height="400">
+        <img src="reputation.png" width="400" height="400">
     </div>
     </div>
 </div>
-<div class="d-flex justify-content-around paddedbox">
+<div class="d-flex justify-content-around align-items-center paddedbox">
     <p class="paddedboxtext">Why Reputation Management</p>
     <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
     <div class="paddedboxgrid">

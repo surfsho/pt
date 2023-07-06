@@ -47,7 +47,7 @@ Route::get('/twowaytexting', function () {
 Route::get('/callerid', function () {
     SEOTools::setTitle('appointment');
     SEOTools::setDescription('This is my page description');
-    return view('twowaytexting');
+    return view('callerid');
 });
 
 

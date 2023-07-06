@@ -1,15 +1,15 @@
 @extends('body')
 @section('content')
-<div  class="hero2 d-flex justify-content-around">
+<div  class="hero2 d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">Virtual Waiting Room<p>
         <p>Patients can send a text message to the front desk to notify them of their arrival. They can fill out and submit registration forms while waiting in the car, and enter the practice at the scheduled appointment time, reducing wait times and providing a seamless experience</p>
     </div>
     <div>
-        <img src="virtualwaitingroom.jpg" width="400" height="400">
+        <img src="Waiting.png" width="400" height="400">
     </div>
 </div>
-<div class="d-flex justify-content-around paddedbox">
+<div class="d-flex justify-content-around align-items-center paddedbox">
     <p class="paddedboxtext">Why this?</p>
     <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
     <div class="paddedboxgrid">

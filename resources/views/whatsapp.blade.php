@@ -1,15 +1,15 @@
 @extends('body')
 @section('content')
-<div  class="hero2 d-flex justify-content-around">
+<div  class="hero2 d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">Whatsapp Messaging<p>
         <p>Two-way WhatsApp messaging is a cutting-edge communication tool that dental practices are now utilizing to enhance their patient engagement and overall experience. By using this service, dental practices can communicate with their patients through the most popular messaging platform in the world.</p>
     </div>
     <div>
-        <img src="whatsappmain.jpg" width="400" height="400">
+        <img src="whatsappmain.png" width="400" height="400">
     </div>
 </div>
-<div class="d-flex justify-content-around paddedbox">
+<div class="d-flex justify-content-around align-items-center paddedbox">
     <p class="paddedboxtext">Why this?</p>
     <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
     <div class="paddedboxgrid">

@@ -1,7 +1,7 @@
 @extends('body')
 @section('content')
 <div  class="hero2">
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-between">
     <div class="box">
         <p class="dental-appointment">Caller ID<p>
         <p>Receiving details of a patient when they call is an important aspect of managing a dental practice. By having access to patient details during a phone call, dental practices can provide more personalized care and improve patient satisfaction</p>
@@ -11,7 +11,7 @@
     </div>
     </div>
 </div>
-<div class="d-flex justify-content-around paddedbox">
+<div class="d-flex justify-content-around align-items-center paddedbox">
     <p class="paddedboxtext">Why this?</p>
     <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
     <div class="paddedboxgrid">
