@@ -2,7 +2,7 @@
 @section('content')
 <div  class="hero2 d-flex justify-content-between">
     <div class="box">
-        <p class="dental-appointment">Virtual Waiting Room<p>
+        <p class="dental-appointment">Virtual Check-in<p>
         <p>Patients can send a text message to the front desk to notify them of their arrival. They can fill out and submit registration forms while waiting in the car, and enter the practice at the scheduled appointment time, reducing wait times and providing a seamless experience</p>
     </div>
     <div>

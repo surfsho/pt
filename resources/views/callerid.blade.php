@@ -3,7 +3,7 @@
 <div  class="hero2">
     <div class="d-flex justify-content-between">
     <div class="box">
-        <p class="dental-appointment">Caller ID<p>
+        <p class="dental-appointment">Smart Caller<p>
         <p>Receiving details of a patient when they call is an important aspect of managing a dental practice. By having access to patient details during a phone call, dental practices can provide more personalized care and improve patient satisfaction</p>
     </div>
     <div>
