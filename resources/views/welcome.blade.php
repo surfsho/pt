@@ -117,7 +117,7 @@
     width: 20vw;">
 </div>
     </div>
-    <div class="rowcol" style="margin-bottom:10vh;">
+    <div class="rowcol" style="margin:10vw;">
         <div class="col3" style="text-align:center;">
             <p class="col2number">
                 1

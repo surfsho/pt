@@ -8,7 +8,7 @@
          <button class="btn btn-primary btn-lg">Button</button>
          </div>
          <div style="position:relative;height:100%;margin-top:100px;">
-         <div style="width:80%;height:50%;margin:auto;z-index:5;position:relative;">
+         <div style="width:80%;height:50%;margin-left:18%;z-index:5;position:relative;">
          <div class="johndoeboxp">
          Automatic Appointment Confirmation
          </div>
@@ -21,19 +21,19 @@
 
 </div>  
             <img src="Ellipse159.png" width="40" style="position:absolute;top:-50px;left:100px;">
-            <img src="Ellipse159.png" width="50" style="position:absolute;top:250px;">
+            <img src="Ellipse159.png" width="50" style="position:absolute;top:250px;left:50px;">
             <img src="Ellipse159.png" width="40" style="position:absolute;bottom:-50px;left:80%;z-index:1;">
             <img src="Vector.png" width="350" style="position:absolute;top:-30px;right:10%;">
-            <img src="bg.png" width="250" style="position:absolute;bottom:-5%;right:8%;">
+            <img src="bg.png" width="250" style="position:absolute;bottom:-5%;right:1%;">
 
 </div>
 </div>
 
-<div class="d-flex box2 schedulebox" style="height:600px;">
+<div class="d-flex box2 justify-content-between align-items-center schedulebox" style="height:600px;padding-left:80px;padding-right:80px;">
     <img src="Vectorcircle.png" style="position: absolute;
     z-index: 1;
     left: 10%;" width="500">
-<div style="width:500px;color:black;z-index:2;margin:auto;">
+<div style="width:400px;color:black;z-index:2;">
          <div class="johndoeboxp">
          Automatic Appointment Confirmation
          </div>
@@ -44,20 +44,20 @@
          </div>
 
 </div>  
-<div class="scheduleboxtext" style="color:black;margin:auto;">
+<div class="scheduleboxtext" style="color:black;">
     <p class="scheduleboxtextp" style="font-size:32px;">Automatic Appointment Confirmations</p>
     <p class="scheduleboxtextp2" style="font-size:25px;">Patients can easily confirm their appointment by responding to the automated reminder</p>
 </div>
 </div>
 
-<div class="d-flex schedulebox justify-content-between">
+<div class="d-flex schedulebox justify-content-between" style="padding:80px;">
     <div class="scheduleboxtext">
     <p class="scheduleboxtextp">Schedule Appointment Reminders</p>
     <p class="scheduleboxtextp2">Reduce missed appointments by automatically sending personalized reminders to your patients. You can send multiple reminders as per options available prior to the scheduled appointment to ensure maximum attendance</p>
 </div>
-    <div style="position:relative;width:30%;margin:6%;" class="d-flex align-items-end">
-        <img src="schedule.png" style="position:relative;top:-50px;width:80%;z-index:1;">
-        <img src="schedule.png" style="position:relative;left:-140%;top:0px;width:80%;">
+    <div style="position:relative;width:20vw;">
+        <img src="schedule.png" style="position:relative;top:0px;z-index:1;width:100%;">
+        <img src="schedule.png" style="position:relative;left:-80%;top:-40px;width:100%;">
     </div>
 </div>
         

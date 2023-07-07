@@ -1,6 +1,6 @@
 <header class="header">
         <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#" style="margin-left:5vw;"><img src="https://www.outreachtek.com/assets/img/patient-connect.png"></a>
+        <a class="navbar-brand" href="#"><img src="https://www.outreachtek.com/assets/img/patient-connect.png"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -63,6 +63,6 @@
         </li>
         
       </ul>
-      <button class="btn btn-primary btn-lg ms-auto" style="margin-right:5%;">Schedule a Demo</button>
+      <button class="btn btn-primary btn-lg ms-auto">Schedule a Demo</button>
         </nav>
         </header>
