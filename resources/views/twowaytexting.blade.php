@@ -32,7 +32,7 @@
     </div>
     </div>
 </div>
-<div class="d-flex justify-content-around align-items-center paddedbox">
+<div class="d-flex justify-content-around align-items-center paddedbox" style="padding-bottom:10vw;">
     <p class="paddedboxtext">What are the benefits of using Two Way Messaging?</p>
     <img src="Vector2.png" width="500" height="600" class="ms-auto me-auto" style="position:absolute;left:30%;top:8%;">
     <div class="paddedboxgrid">
@@ -55,38 +55,4 @@
 </div>
 </div>
 
-<div style="margin-top:5%;margin-bottom:5%;">
-    <p style="font-size:52px;text-align:center;padding:20px;">Integration</p>
-    <div class="carousel slide " data-bs-ride="carousel" style="background-color:#FBE3A4;padding:5%;padding-left:20%;">
-        <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="dentrix.png" style="width:10%;height:70%;margin:15px;">
-        </div>
-        <div class="carousel-item">
-        <img src="dentrixenterprise.png" style="width:15%;height:70%;margin:15px;">
-        </div>
-        <div class="carousel-item">
-        <img src="dentrixascend.png" style="width:15%;height:25%;margin:15px;">
-        </div>
-        <div class="carousel-item">
-        <img src="curvedental.png" style="width:15%;height:25%;margin:15px;">
-        </div>
-        <div class="carousel-item">
-        <img src="opendental.png" style="width:15%;height:75%;margin:10px;">
-        </div>
-        <div class="carousel-item">
-        <img src="dentrixenterprise.png" style="width:15%;height:70%;margin:15px;">
-        </div>
-        <div class="carousel-item">
-        <img src="dentrixascend.png" style="width:15%;height:25%;margin:15px;">
-        </div>
-        <div class="carousel-item">
-        <img src="curvedental.png" style="width:15%;height:25%;margin:15px;">
-        </div>
-        <div class="carousel-item">
-        <img src="opendental.png" style="width:15%;height:75%;margin:10px;">
-        </div>
-</div>
-    </div>
-</div>
 @stop

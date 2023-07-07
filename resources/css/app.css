@@ -766,7 +766,7 @@ a {
 }
 
 .paddedbox {
-    position:relative;padding:50px;
+    position:relative;padding:50px;padding-bottom:0px;
 }
 
 .paddedboxtext {
