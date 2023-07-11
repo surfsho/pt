@@ -115,7 +115,9 @@ body {
     padding:1vw;
     position:relative;
     height:350px;
-    font-size:1vw;
+    font-size:15px;
+    padding-left:80px;
+    padding-right:80px;
 }
 
 .rflex div {

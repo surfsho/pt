@@ -38,14 +38,14 @@
                 <img src="logowhite.png" width="120" height="50">
             </div>
             <div>
-                <p style="font-weight:bold;font-size:1.5vw;">
+                <p style="font-size:18px;">
                 Useful Links
                 </p>
                 <p><a href="/pt/public/">Home</a></p>
                 
 </div>
 <div>
-<p style="font-weight:bold;font-size:1.5vw;">Features</p>
+<p style="font-size:18px;">Features</p>
                 
                 <p><a href="/pt/public/whatsapp">WhatsApp Mesaaging</p>
                 <p><a href="/pt/public/appointment">Appointment Reminders</a></o>
@@ -54,7 +54,7 @@
 </div>
 <div>
                 
-            <p style="font-weight:bold;font-size:1.5vw;">Features</p>
+            <p style="font-size:18px;">Features</p>
             <p><a href="/pt/public/patientrecall">Patient Recall</a></p>
             <p><a href="/pt/public/preandpostcaremessaging">Pre & Post Care Messaging</a></p>
             <p><a href="/pt/public/broadcast">Broadcast Messaging</a> </p>
@@ -64,7 +64,7 @@
             </div>
             <div>
                 
-            <p style="font-weight:bold;font-size:1.5vw;">Features</p>
+            <p style="font-size:18px;">Features</p>
 
         <p><a href="/pt/public/reputation">Reputation Management</a> </p>
           <p><a href="/pt/public/insuranceverification">Insurance Verification</a></p>
@@ -76,7 +76,7 @@
             
             </div>
             <div style="margin-left:auto;">
-                <p style="font-size:28px;">Follow us</p>
+                <p style="font-size:18px;">Follow us</p>
                 <div style="flex-direction:row !important;margin:0px;justify-content:space-between;width:10vw;">
                     <img src="facebook.png">
                     <img src="instagram.png">

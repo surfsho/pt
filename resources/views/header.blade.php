@@ -1,6 +1,6 @@
 <header class="header">
         <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img src="https://www.outreachtek.com/assets/img/patient-connect.png"></a>
+        <a class="navbar-brand" href="/pt/public"><img src="https://www.outreachtek.com/assets/img/patient-connect.png"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
