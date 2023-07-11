@@ -267,6 +267,7 @@ background: lightgray;
 
 .rowcol {
     display:flex;
+    
 }
 
 .btext {
@@ -282,7 +283,8 @@ background: lightgray;
 .textban {
     background-color: #2694E1;
     padding:3vw;
-    text-align: center;
+    margin-top:auto;
+    margin-bottom: auto;
 }
 
 .textbanc {
@@ -340,9 +342,10 @@ box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.25);
 .plusabout {
     margin-top:4%;
     font-size:25px;
-    margin-left:20px;
+    margin-left:80px;
     justify-content:space-around;
     height:35vw;
+    margin-right: 80px;
 }
 
 .colorblock {
@@ -496,7 +499,7 @@ left: 837px;
 }
 
 .tbw {
-    margin-left: 20%;
+    margin-left: 80px;
     margin-top: auto;
     margin-bottom: auto;
     width:20%;

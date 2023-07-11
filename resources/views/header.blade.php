@@ -63,6 +63,6 @@
         </li>
         
       </ul>
-      <button class="btn btn-primary btn-lg ms-auto">Schedule a Demo</button>
+      <button class="btn btn-primary btn-lg">Schedule a Demo</button>
         </nav>
         </header>

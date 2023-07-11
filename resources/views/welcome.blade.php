@@ -21,13 +21,13 @@
                 <p class="ctext">Revenue Generation</p>
             </div>
             </div>
-            <div class="d-flex justify-content-center m-5">
-                <button class="btn btn-primary btn-lg">Get Started</button>
-                <button class="btn btn-outline-primary btn-lg">Demo Videos</button>
+            <div class="d-flex justify-content-center p-5" style="padding-bottom:100px !important;">
+                <button class="btn btn-primary btn-lg" style="margin-right:20px;height:60px;background:#2694E1 !important;border-color: #2694E1;">Get Started</button>
+                <button class="btn btn-outline-primary btn-lg" style="height:60px;border-color: #2694E1;">Demo Videos</button>
             </div>
 </div>
     <div>
-        <div class="rowcol" style="height:30vw;">
+        <div class="rowcol" style="height:30vw;background-color: #2694E1;">
         <img src="Rectangle3921.png" style="width:50vw;">
         <div class="textban">
             <p class="textbanc">Patient Connect is an easy to use and integrated solution for healthcare providers</p>
