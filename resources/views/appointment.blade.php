@@ -5,7 +5,7 @@
          <p style="font-size:52px;">Appointment Reminders </p>
          <p style="font-size:28px;">Prevent Patient No-Shows At Your Practice</p>
          <p class="flexboxp">Take advantage of our patient communication platform to minimize missed appointments by sending customized, timely reminder messages.</p>
-         <button class="btn btn-primary btn-lg">Button</button>
+         <button class="btn btn-primary btn-lg btno">Button</button>
          </div>
          <div style="position:relative;height:100%;margin-top:100px;">
          <div style="width:80%;height:50%;margin-left:18%;z-index:5;position:relative;">

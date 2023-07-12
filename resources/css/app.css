@@ -749,24 +749,32 @@ a {
 
 .schedulebox {
     position:relative;background-color:#2694E1;color:white;
+    height:28%;
 }
 
 .box2 {
     background: #2694E11A;
 }
 
+.btno{
+    background-color:#2694E1 !important;
+    border-color:#2694E1 !important;
+}
+
 .scheduleboxtext {
     width:40%;
     z-index: 2;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
 .scheduleboxtextp {
-    font-size:32px;
+    font-size:3vw;
    
 }
 
 .scheduleboxtextp2 {
-    font-size:20px;
+    font-size:1vw;
     
 }
 
@@ -788,10 +796,33 @@ a {
 }
 
 .box {
-    font-size: 25px;
-    width: 40%;
+    font-size: 1.5vw;
+    width: 36vw;
 }
 
 .hg > * {
     margin-bottom:80px;
+}
+
+.hero2  img {
+    width:45vw;
+    height:35vw;
+    
+}
+
+
+
+.box {
+    margin-top:auto !important;
+    margin-bottom: auto !important;
+}
+
+.hero2 > * {
+    margin-top:50px;
+    margin-bottom:100px;
+    
+}
+
+.hero2 .dental-appointment {
+    font-size:1.8vw;
 }
