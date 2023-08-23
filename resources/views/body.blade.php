@@ -13,14 +13,15 @@
               <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css">
     <script>
         var botmanWidget = {
-            chatServer: '/pt/public/botman',
-            frameEndpoint: '/pt/public/botman/chat',
+            // chatServer: '/pt/public/botman',
+            frameEndpoint: '/frame',
             aboutText: 'patientconnect help',
             introMessage: "✋ Hi! I'm from PatientConnect",
             title: "PatientConnect",
-
+            mainColor: '#2694E1',
         };
     </script>
+
    
     <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
        

@@ -826,3 +826,60 @@ a {
 .hero2 .dental-appointment {
     font-size:1.8vw;
 }
+
+#botmanWidgetRoot > div > div:first-child {
+    height:60px !important;
+}
+
+#botmanWidgetRoot > div > div:nth-child(2) {
+    height: 85vh !important;
+} 
+
+#botmanWidgetRoot > div {
+    width:500px !important;
+}
+
+#messageArea {
+    background: white !important;
+    height:95vh;
+}
+
+.msg {
+    background: white !important;
+}
+
+li.chatbot:before {
+    content: '';
+    background: url(http://localhost:8000/user.png) no-repeat;
+    width: 50px;
+    height: 80px;
+    display: block;
+    background-size: 50px 50px;
+    position: relative;
+    top: 20px;
+}
+
+.msg > div > div:nth-child(1) {
+   font-size:24px;
+   padding:10px;
+    
+}
+
+.msg > div:nth-child(1) > p {
+    font-size:24px;
+    padding:10px;
+}
+
+.msg > div > div:nth-child(2) {
+    display:grid;
+    grid-template-columns: 200px 200px;
+    
+}
+
+.msg .btn {
+    background: none ;
+    border: 1px solid black;
+    color:black;
+    font-size:18px;
+
+}

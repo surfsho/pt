@@ -118,3 +118,7 @@ Route::post('/sendemail', function (Request $request) {
 });
 
 Route::match(['get','post'], '/botman',[BotmanController::class,'handle']);
+
+Route::get('frame', function() {
+    return view('botman');
+});

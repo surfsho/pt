@@ -8,6 +8,7 @@ use BotMan\BotMan\Messages\Incoming\Answer;
 use Illuminate\Support\Facades\DB;
 use BotMan\BotMan\Messages\Outgoing\Question;
 use App\Conversation\QuizConversation;
+use App\Conversation\AsystConversation;
 class BotmanController extends Controller
 {
     //
@@ -58,7 +59,7 @@ class BotmanController extends Controller
         // }
 
         $botman->hears('hi', function(Botman $bot){
-            $bot->startConversation(new QuizConversation);
+            $bot->startConversation(new AsystConversation);
         });
         $botman->listen();
     }

@@ -26,7 +26,9 @@ class DatabaseSeeder extends Seeder
             ["message" => "what can i help you with"],
             ["message" => "What solutions are you interested in?"],
             ["message" => "What do you want to learn more about?"],
-            ["message" => "Ready to speak to one of our experts?"]
+            ["message" => "Ready to speak to one of our experts?"],
+            ["message" => "Hi, I’m Peter. I am here to help you find what you are looking for. How can I help you today?"],
+            ["message" => "Are you a patient or a healthcare practice?"]
         ]);
 
         DB::table('buttonsbotman')->insert([
@@ -74,6 +76,24 @@ class DatabaseSeeder extends Seeder
             ["name" => "No thanks","order"=>19,"message_id"=>6,"next"=>0]
         ]);
 
+        DB::table('buttonsbotman')->insert([
+            ["name" => "Yes! Lets do it","order"=>17,"message_id"=>6,"next"=>0],
+            ["name" => "Can you just email me","order"=>18,"message_id"=>6,"next"=>0],
+            ["name" => "No thanks","order"=>19,"message_id"=>6,"next"=>0]
+        ]);
+
+        DB::table('buttonsbotman')->insert([
+            ["name" => "i'm looking for more information about your patient check in and communication platform","order"=>20,"message_id"=>7,"next"=>0],
+            ["name" => "i'm a healthcare technology company looking for it services partner","order"=>21,"message_id"=>7,"next"=>0],
+            ["name" => "i want to start an exciting career with ","order"=>22,"message_id"=>7,"next"=>0],
+            ["name" => "i'm a current user looking for support","order"=>23,"message_id"=>7,"next"=>8]
+        ]);
+
+        DB::table('buttonsbotman')->insert([
+            ["name" => "i'm a patient","order"=>24,"message_id"=>8,"next"=>0],
+            ["name" => "i'm a healthcare practice","order"=>25,"message_id"=>8,"next"=>0],
+        ]);
+
 
         DB::table('answersbotman')->insert([
             ["message" => "Our team is ready to help, but to get you to the right person, what do you need help with?","order"=>0, "message_id"=> 1],
@@ -116,6 +136,28 @@ class DatabaseSeeder extends Seeder
             ["message" => "didnt get you","order"=>17,"message_id"=>6],
             ["message" => "didnt get you","order"=>18,"message_id"=>6],
             ["message" => "didnt get you","order"=>19,"message_id"=>6]
+        ]);
+
+        DB::table('answersbotman')->insert([
+            ["message" => "didnt get you","order"=>17,"message_id"=>6],
+            ["message" => "didnt get you","order"=>18,"message_id"=>6],
+            ["message" => "didnt get you","order"=>19,"message_id"=>6]
+        ]);
+
+        DB::table('answersbotman')->insert([
+            ["message" => "Great! Let me take you to the right place.","order"=>20,"message_id"=>7],
+            ["message" => "Great! Let me take you to the right place.","order"=>21,"message_id"=>7],
+            ["message" => "Great! Let me take you to the right place.","order"=>22,"message_id"=>7],
+            ["message" => "I’m a current user of CheckinAsyst looking for support","order"=>23,"message_id"=>7],
+        ]);
+
+        DB::table('answersbotman')->insert([
+            ["message" => "Different practices have tailored CheckinAsyst to meet their unique needs. Please reach out to your doctor’s office directly for resolving your queries.","order"=>24,"message_id"=>8],
+            ["message" => "Hope I was able to help.","order"=>24,"message_id"=>8],
+            ["message" => "Don’t worry, we have your back. Please have your organization’s SPOC for CheckinAsyst raise a ticket on: support.healthasyst.com","order"=>25,"message_id"=>8],
+            ["message" => "Alternatively, you can also reach us at: +1 (404) 596 8228 and then select Option #2.","order"=>25,"message_id"=>8],
+            ["message" => "Thank you for enquiring.","order"=>25,"message_id"=>8],
+       
         ]);
     }
 }
